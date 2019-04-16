@@ -315,6 +315,8 @@ module.exports = class MetamaskController extends EventEmitter {
 
     // setup memStore subscription hooks
     this.on('update', updatePublicConfigStore)
+    updatePublicConfigStore(this.getState())
+
     publicConfigStore.destroy = () => {
       this.removeEventListener('update', updatePublicConfigStore)
     }

@@ -51,19 +51,11 @@ inpageProvider._metamask = new Proxy({
   /**
    * Determines if this domain is currently enabled
    *
-   * @returns {boolean} - true if this domain is currently enabled
+   * @returns {Promise<boolean>} - Promise resolving to true if this domain is currently enabled
    */
-  isEnabled: function () {
-    return inpageProvider.publicConfigStore.getState().isEnabled
-  },
-
-  /**
-   * Determines if this domain has been previously approved
-   *
-   * @returns {Promise<boolean>} - Promise resolving to true if this domain has been previously approved
-   */
-  isApproved: async function () {
-    return inpageProvider.publicConfigStore.getState().isEnabled
+  isEnabled: async function () {
+    const { isEnabled } = await getPublicConfigWhenReady()
+    return isEnabled
   },
 
   /**
@@ -72,7 +64,8 @@ inpageProvider._metamask = new Proxy({
    * @returns {Promise<boolean>} - Promise resolving to true if MetaMask is currently unlocked
    */
   isUnlocked: async function () {
-    return inpageProvider.publicConfigStore.getState().isUnlocked
+    const { isUnlocked } = await getPublicConfigWhenReady()
+    return isUnlocked
   },
 }, {
   get: function (obj, prop) {
@@ -83,6 +76,19 @@ inpageProvider._metamask = new Proxy({
     return obj[prop]
   },
 })
+
+// publicConfig isn't populated until we get a message from background.
+// Using this getter will ensure the state is available
+async function getPublicConfigWhenReady () {
+  const store = inpageProvider.publicConfigStore 
+  let state = store.getState()
+  // if state is missing, wait for first update
+  if (!state.networkVersion) {
+    state = await new Promise(resolve => store.once('update', resolve))
+    console.log('new state', state)
+  }
+  return state
+}
 
 // Work around for web3@1.0 deleting the bound `sendAsync` but not the unbound
 // `sendAsync` method on the prototype, causing `this` reference issues with drizzle
