@@ -80,7 +80,7 @@ inpageProvider._metamask = new Proxy({
 // publicConfig isn't populated until we get a message from background.
 // Using this getter will ensure the state is available
 async function getPublicConfigWhenReady () {
-  const store = inpageProvider.publicConfigStore 
+  const store = inpageProvider.publicConfigStore
   let state = store.getState()
   // if state is missing, wait for first update
   if (!state.networkVersion) {
