@@ -44,7 +44,7 @@ class StandardProvider {
   send (method, params = []) {
     return new Promise((resolve, reject) => {
       try {
-        this._provider.sendAsync({ method, params, beta: true }, (error, response) => {
+        this._provider.sendAsync({ id: 1, jsonrpc: '2.0', method, params }, (error, response) => {
           error = error || response.error
           error ? reject(error) : resolve(response)
         })
