@@ -30,13 +30,13 @@
     "message": "Klè Done sou vi prive"
   },
   "providerAPIRequest": {
-    "message": "Ethereum API Mande"
+    "message": "Callisto Network API Mande"
   },
   "reviewProviderRequest": {
-    "message": "Tanpri revize sa API demann Ethereum."
+    "message": "Tanpri revize sa API demann Callisto Network."
   },
   "providerRequestInfo": {
-    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou Ethereum ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
+    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou Callisto Network ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
   },
   "accept": {
     "message": "Aksepte"
@@ -78,7 +78,7 @@
     "message": "Ajoute Token Yo Sikjere W"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk MetaMask"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk Callisto Hub"
   },
   "amount": {
     "message": "Kantite lajan"
@@ -87,7 +87,7 @@
     "message": "Kantite lajan + Gaz"
   },
   "appDescription": {
-    "message": "Ekstansyon Navigatè Ethereum",
+    "message": "Ekstansyon Navigatè Callisto",
     "description": "The description of the application"
   },
   "appName": {
@@ -144,7 +144,7 @@
     "message": "Navigatè ou a pa sipòte..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fèt e bati nan California."
+    "message": "Callisto Hub fèt e bati nan California."
   },
   "buy": {
     "message": "Achte"
@@ -153,7 +153,7 @@
     "message": "Achte sou Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase se fason ki pi popilè nan mond lan yo achte ak vann Bitcoin, Ethereum, ak Litecoin."
+    "message": "Coinbase se fason ki pi popilè nan mond lan yo achte ak vann Bitcoin, Callisto Network, ak Litecoin."
   },
   "buyCoinSwitch": {
     "message": "Achte sou CoinSwitch"
@@ -192,7 +192,7 @@
     "message": "Fèmen"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak MetaMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak Callisto Hub sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "confirm": {
     "message": "Konfime"
@@ -222,7 +222,7 @@
     "message": "Konekte nan Kovan Tès Rezo a"
   },
   "connectingToMainnet": {
-    "message": "Konekte ak Prensipal Ethereum Rezo a"
+    "message": "Konekte ak Prensipal Callisto Network Rezo a"
   },
   "connectingToRopsten": {
     "message": "Konekte ak Ropsten Tès Rezo a"
@@ -328,7 +328,7 @@
     "message": "Dfo rezo a pou tranzaksyon Ether se Mainnet."
   },
   "denExplainer": {
-    "message": "DEN ou se depo modpas avèk chif ou nan MetaMask."
+    "message": "DEN ou se depo modpas avèk chif ou nan Callisto Hub."
   },
   "deposit": {
     "message": "Depo"
@@ -356,7 +356,7 @@
     "message": "Depo avèk ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si ou posede lòt cryptocurrencies, ou ka chanje ak depo Ether dirèkteman nan Wallet MetaMask ou. Pa gen kont ki nesesè."
+    "message": "Si ou posede lòt cryptocurrencies, ou ka chanje ak depo Ether dirèkteman nan Wallet Callisto Hub ou. Pa gen kont ki nesesè."
   },
   "details": {
     "message": "Detay yo"
@@ -520,7 +520,7 @@
     "message": "Materyèl Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak MetaMask"
+    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak Callisto Hub"
   },
   "havingTroubleConnecting": {
     "message": "Èske w gen pwoblèm pou konekte?"
@@ -561,7 +561,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont MetaMask seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont Callisto Hub seed fraz. Aprann plis sou kont enpòte "
   },
   "importAnAccount": {
     "message": "Pòte yon kont"
@@ -620,7 +620,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Gade tokens yo ou te achte ak kont MetaMask ou."
+    "message": "Gade tokens yo ou te achte ak kont Callisto Hub ou."
   },
   "kovan": {
     "message": "Kovan Tès Rezo"
@@ -672,7 +672,7 @@
     "message": "seed mo sèlman gen karaktè miniskil"
   },
   "mainnet": {
-    "message": "Prensipal Ethereum Rezo a"
+    "message": "Prensipal Callisto Network Rezo a"
   },
   "menu": {
     "message": "Opsyon"
@@ -681,13 +681,13 @@
     "message": "Mesaje"
   },
   "metamaskDescription": {
-    "message": "MetaMask sekirize idantite pou Ethereum."
+    "message": "Callisto Hub sekirize idantite pou Callisto Network."
   },
-  "metamaskSeedWords": {
-    "message": "MetaMask Seed Mo"
+  "CLOSeedWords": {
+    "message": "Callisto Hub Seed Mo"
   },
-  "metamaskVersion": {
-    "message": "MetaMask Vèsyon"
+  "CallistoHubVersion": {
+    "message": "Callisto Hub Vèsyon"
   },
   "min": {
     "message": "Minimòm"
@@ -702,7 +702,7 @@
     "message": "Ou dwe chwazi omwen 1 token."
   },
   "needEtherInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize MetaMask, ou pral bezwen Ether nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize Callisto Hub, ou pral bezwen Ether nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
@@ -780,10 +780,10 @@
     "message": "Ou te retounen nan Ansyen Itilizatè kouòdone. Ou ka chanje tounen nan nouvo Ansyen Itilizatè nan opsyon a nan meni an tèt la."
   },
   "onlySendToEtherAddress": {
-    "message": "Sèlman voye ETH nan yon adrès Ethereum."
+    "message": "Sèlman voye ETH nan yon adrès Callisto Network."
   },
   "onlySendTokensToAccountAddress": {
-    "message": "Sèlman voye $ 1 nan yon adrès kont Ethereum.",
+    "message": "Sèlman voye $ 1 nan yon adrès kont Callisto Network.",
     "description": "displays token symbol"
   },
   "openInTab": {
@@ -1025,7 +1025,7 @@
     "message": "Voye"
   },
   "sendETH": {
-    "message": "Voye ETH"
+    "message": "Voye CLO"
   },
   "sendTokens": {
     "message": "Voye Tokens"
@@ -1049,7 +1049,7 @@
     "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Chwazi kont pou wè nan MetaMask"
+    "message": "Chwazi kont pou wè nan Callisto Hub"
   },
   "selectHdPath": {
     "message": "Chwazi chemen HD"
@@ -1058,7 +1058,7 @@
     "message": "Si ou pa wè kont Ledger ou te genyen an anba a, eseye chanje chemen an \"Eritaj (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Voye Tokens pou nenpòt moun ki gen yon kont Ethereum"
+    "message": "Voye Tokens pou nenpòt moun ki gen yon kont Callisto Network"
   },
   "settings": {
     "message": "Paramèt"
@@ -1188,7 +1188,7 @@
     "message": "Token Senbòl"
   },
   "tokenWarning1": {
-    "message": "Kenbe tras token yo ou te achte ak kont MetaMask ou. Si ou te achte tokens pandan wap itilize yon kont diferan tokens sa yo pa pral parèt la."
+    "message": "Kenbe tras token yo ou te achte ak kont Callisto Hub ou. Si ou te achte tokens pandan wap itilize yon kont diferan tokens sa yo pa pral parèt la."
   },
   "total": {
     "message": "Total"
@@ -1249,7 +1249,7 @@
     "message": "Eseye anko"
   },
   "twelveWords": {
-    "message": "12 mo sa yo se sèl fason pou retabli kont MetaMask ou yo. \nKenbe yo yon kote ki an sekirite ak sekrè."
+    "message": "12 mo sa yo se sèl fason pou retabli kont Callisto Hub ou yo. \nKenbe yo yon kote ki an sekirite ak sekrè."
   },
   "typePassword": {
     "message": "Tape modpas ou"
@@ -1258,7 +1258,7 @@
     "message": "Byenveni nan New itilizatè koòdone (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Kounya w ap itilize nouvo MetaMask UI (itilizatè koòdone) a."
+    "message": "Kounya w ap itilize nouvo Callisto Hub UI (itilizatè koòdone) a."
   },
   "unapproved": {
     "message": "Pa apwouve"
@@ -1337,7 +1337,7 @@
     "message": "Bon Retou!"
   },
   "welcome": {
-    "message": "Byenveni nan MetaMask"
+    "message": "Byenveni nan Callisto Hub"
   },
   "whatsThis": {
     "message": "Kisa sa ye?"

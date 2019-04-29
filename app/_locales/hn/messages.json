@@ -79,7 +79,7 @@
     "description": "आवेदन का विवरण"
   },
   "appName": {
-    "message": "मेटामास्क/MetaMask",
+    "message": "मेटामास्क/Callisto Hub",
     "description": "एप्लिकेशन का नाम"
   },
   "attemptingConnect": {
@@ -697,7 +697,7 @@
     "message": "भेजें"
   },
   "sendETH": {
-    "message": "भेजें ETH"
+    "message": "भेजें CLO"
   },
   "sendTokens": {
     "message": "भेजें टोकन"

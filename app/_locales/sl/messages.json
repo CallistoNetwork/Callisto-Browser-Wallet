@@ -36,10 +36,10 @@
     "message": "Počisti podatke o odobritvi"
   },
   "providerAPIRequest": {
-    "message": "Zahteva za Ethereum API"
+    "message": "Zahteva za Callisto Network API"
   },
   "reviewProviderRequest": {
-    "message": "Preglejte zahtevo za Ethereum API."
+    "message": "Preglejte zahtevo za Callisto Network API."
   },
   "providerRequestInfo": {
     "message": "Domena zahteva dostop do verige blokov in ogled vašega računa. Pred potrditvjo vedno preverite ali ste na želeni spletni strani."
@@ -90,7 +90,7 @@
     "message": "Dodaj priporočene žetone"
   },
   "addAcquiredTokens": {
-    "message": "Dodaj žetone pridobljene z MetaMask"
+    "message": "Dodaj žetone pridobljene z Callisto Hub"
   },
   "advanced": {
     "message": "Napredno"
@@ -105,7 +105,7 @@
     "message": "Znesek + TX Fee"
   },
   "appDescription": {
-    "message": "Denarnica za Ethereum v brskalniku",
+    "message": "Denarnica za Callisto v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
@@ -201,7 +201,7 @@
     "message": "Vaš brskalnik ni podptrt ..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask je zasnovan in ustvarjen v Kaliforniji."
+    "message": "Callisto Hub je zasnovan in ustvarjen v Kaliforniji."
   },
   "buy": {
     "message": "Kupi"
@@ -210,7 +210,7 @@
     "message": "Kupi na Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase je najpopularnejši načun za kupovanje in prodajo bitcoinov, ethereuma, in litecoina."
+    "message": "Coinbase je najpopularnejši načun za kupovanje in prodajo bitcoinov, Callisto Networka, in litecoina."
   },
   "bytes": {
     "message": "Bajti"
@@ -400,7 +400,7 @@
     "message": "Privzeto omrežje za transkacije je glavno omrežje."
   },
   "denExplainer": {
-    "message": "Vaš DEN je z geslom šifrirana shramba v MetaMask."
+    "message": "Vaš DEN je z geslom šifrirana shramba v Callisto Hub."
   },
   "deposit": {
     "message": "Vplačaj"
@@ -428,7 +428,7 @@
     "message": "Vplačilo z ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Če imate druge kriptovalute, lahko Ether vplačate neposredno v MetaMask. Brez računov."
+    "message": "Če imate druge kriptovalute, lahko Ether vplačate neposredno v Callisto Hub. Brez računov."
   },
   "details": {
     "message": "Podrobnosti"
@@ -440,7 +440,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate Ether, ga lahko najhitreje dobite v MetaMask z neposrednim vplačilom."
+    "message": "Če že imate Ether, ga lahko najhitreje dobite v Callisto Hub z neposrednim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -716,7 +716,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Sledite žetonom, ki ste jih pridobili z MetaMask."
+    "message": "Sledite žetonom, ki ste jih pridobili z Callisto Hub."
   },
   "kovan": {
     "message": "Testno omrežje Kovan"
@@ -780,12 +780,12 @@
     "message": "Sporočilo"
   },
   "metamaskDescription": {
-    "message": "MetaMask je varen identitetni sklad za Ethereum."
+    "message": "Callisto Hub je varen identitetni sklad za Callisto Network."
   },
-  "metamaskSeedWords": {
+  "CLOSeedWords": {
     "message": "Seed Words"
   },
-  "metamaskVersion": {
+  "CallistoHubVersion": {
     "message": "Različica"
   },
   "min": {
@@ -906,10 +906,10 @@
     "message": "Vrnili ste se v star uporabniški vmesnik. V novega se lahko vrnete z možnostjo v spustnem meniju v zgornjem desnem kotu."
   },
   "onlySendToEtherAddress": {
-    "message": "Na Ethereum naslov pošljute samo ETH."
+    "message": "Na Callisto Network naslov pošljute samo ETH."
   },
   "onlySendTokensToAccountAddress": {
-    "message": "Na Ethereum naslov pošljute samo $1.",
+    "message": "Na Callisto Network naslov pošljute samo $1.",
     "description": "displays token symbol"
   },
   "openInTab": {
@@ -1172,7 +1172,7 @@
     "message": "Pošlji znesek"
   },
   "sendETH": {
-    "message": "Pošlji ETH"
+    "message": "Pošlji CLO"
   },
   "sendTokens": {
     "message": "Pošlji žetone"
@@ -1196,7 +1196,7 @@
     "message": "Izberi račun"
   },
   "selectAnAccountHelp": {
-    "message": "Izberi račun za prikaz v MetaMask"
+    "message": "Izberi račun za prikaz v Callisto Hub"
   },
   "selectAHigherGasFee": {
     "message": "Izberite višji gas fee, da pospešite obdelavo vaše transakcije.*"
@@ -1208,7 +1208,7 @@
     "message": "Če obstoječih Ledger ne vidite, poskusite izbrati \"Legacy (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Pošljite žetone komurkoli z Ethereum naslovom"
+    "message": "Pošljite žetone komurkoli z Callisto Network naslovom"
   },
   "settings": {
     "message": "Nastavitve"
@@ -1301,7 +1301,7 @@
     "message": "3. Začnite uporabljati dApps in več!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Uporabite strojno denarnico kot katerikoli drug Ethereum račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
+    "message": "Uporabite strojno denarnico kot katerikoli drug Callisto Network račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
   },
   "submit": {
     "message": "Potrdi"
@@ -1353,7 +1353,7 @@
     "message": "Simbol žetona"
   },
   "tokenWarning1": {
-    "message": "Sledite žetonom, ki ste jih kupili z MetaMask metamask računom. Če ste jih kupili drugje, ne bodo prikazani tukaj."
+    "message": "Sledite žetonom, ki ste jih kupili z Callisto Hub Callisto Hub računom. Če ste jih kupili drugje, ne bodo prikazani tukaj."
   },
   "total": {
     "message": "Skupno"
@@ -1435,10 +1435,10 @@
     "message": "Poskusi znova"
   },
   "twelveWords": {
-    "message": "Edini način za obnovitev MetaMask računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
+    "message": "Edini način za obnovitev Callisto Hub računa, je teh 12 besed.\nShranite jih na varno in skrivno mesto."
   },
   "typePassword": {
-    "message": "Vnesite vaše MetaMask geslo"
+    "message": "Vnesite vaše Callisto Hub geslo"
   },
   "uiWelcome": {
     "message": "Dobrodošli v nov UI (Beta)"
@@ -1532,7 +1532,7 @@
     "message": "Dobrodošli nazaj!"
   },
   "welcome": {
-    "message": "Dobrodošli v MetaMask"
+    "message": "Dobrodošli v Callisto Hub"
   },
   "whatsThis": {
     "message": "Kaj je to?"

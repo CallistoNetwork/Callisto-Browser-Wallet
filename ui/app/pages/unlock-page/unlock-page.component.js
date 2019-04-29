@@ -108,7 +108,7 @@ export default class UnlockPage extends Component {
 
   renderSubmitButton () {
     const style = {
-      backgroundColor: '#f7861c',
+      backgroundColor: '#34c88a',
       color: 'white',
       marginTop: '20px',
       height: '60px',
@@ -142,10 +142,10 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
-              animationEventEmitter={this.animationEventEmitter}
-              width="120"
-              height="120"
+            <img
+              className="app-header__metafox-logo app-header__metafox-logo--horizontal"
+              src="/images/logo/clo-logo.svg"
+              height={100}
             />
           </div>
           <h1 className="unlock-page__title">

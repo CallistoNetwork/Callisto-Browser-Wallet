@@ -39,10 +39,10 @@
     "message": "Web3 APIリクエスト"
   },
   "reviewProviderRequest": {
-    "message": "このEthereum APIリクエストを確認してください。"
+    "message": "このCallisto Network APIリクエストを確認してください。"
   },
   "providerRequestInfo": {
-    "message": "下記のドメインは、Ethereumブロックチェーンとやり取りできるようにEthereum APIへのアクセスをリクエストしようとしています。 Web3アクセスを承認する前に、正しいサイトにいることを常に確認してください。"
+    "message": "下記のドメインは、Callisto Networkブロックチェーンとやり取りできるようにCallisto Network APIへのアクセスをリクエストしようとしています。 Web3アクセスを承認する前に、正しいサイトにいることを常に確認してください。"
   },
   "accept": {
     "message": "承認"
@@ -75,7 +75,7 @@
     "message": "金額 + ガス"
   },
   "appDescription": {
-    "message": "Ethereumのブラウザ・エクステンション",
+    "message": "Callistoのブラウザ・エクステンション",
     "description": "The description of the application"
   },
   "appName": {
@@ -120,7 +120,7 @@
     "message": "Coinbaseのサイトで購入"
   },
   "buyCoinbaseExplainer": {
-    "message": "Etherを購入できます。Coinbaseは、世界的なBitcoin、Ethereum、そしてLitecoinの取引所です。"
+    "message": "Etherを購入できます。Coinbaseは、世界的なBitcoin、Callisto Network、そしてLitecoinの取引所です。"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitchのサイトで購入"
@@ -220,7 +220,7 @@
     "message": "デフォルトのEther送受信ネットワークはメインネットです。"
   },
   "denExplainer": {
-    "message": "DENとは、あなたのパスワードが暗号化されたMetaMask内のストレージです。"
+    "message": "DENとは、あなたのパスワードが暗号化されたCallisto Hub内のストレージです。"
   },
   "deposit": {
     "message": "振込"
@@ -248,7 +248,7 @@
     "message": "ShapeShiftで交換"
   },
   "depositShapeShiftExplainer": {
-    "message": "他の暗号通貨とEtherを交換して、MetaMaskのウォレットへ入金できます。アカウント作成は不要です。"
+    "message": "他の暗号通貨とEtherを交換して、Callisto Hubのウォレットへ入金できます。アカウント作成は不要です。"
   },
   "details": {
     "message": "詳細"
@@ -260,7 +260,7 @@
     "message": "Etherを直接入金"
   },
   "directDepositEtherExplainer": {
-    "message": "既にEtherをお持ちなら、MetaMaskの新しいウォレットにEtherを送信することができます。"
+    "message": "既にEtherをお持ちなら、Callisto Hubの新しいウォレットにEtherを送信することができます。"
   },
   "done": {
     "message": "完了"
@@ -369,7 +369,7 @@
     "message": "アカウントのインポート"
   },
   "importAccountMsg": {
-    "message": "追加したアカウントはMetaMaskのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
+    "message": "追加したアカウントはCallisto Hubのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
   },
   "importAnAccount": {
     "message": "アカウントをインポート"
@@ -404,7 +404,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "MetaMaskアカウントで入手したトークンを検索できます。"
+    "message": "Callisto Hubアカウントで入手したトークンを検索できます。"
   },
   "kovan": {
     "message": "Kovanテストネットワーク"
@@ -447,7 +447,7 @@
     "message": "最大"
   },
   "mainnet": {
-    "message": "Ethereumメインネットワーク"
+    "message": "CLOメインネットワーク"
   },
   "menu": {
     "message": "メニュー"
@@ -465,7 +465,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needEtherInWallet": {
-    "message": "MetaMaskで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
+    "message": "Callisto Hubで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -652,7 +652,7 @@
     "message": "送信"
   },
   "sendETH": {
-    "message": "ETHの送信"
+    "message": "CLOの送信"
   },
   "sendTokens": {
     "message": "トークンを送信"
@@ -738,7 +738,7 @@
     "message": "トークンシンボル"
   },
   "tokenWarning1": {
-    "message": "MetaMaskのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
+    "message": "Callisto Hubのアカウントで取得したアカウントのみ追加できます。他のアカウントを使用して取得したトークンは、カスタムトークンを使用してください。"
   },
   "total": {
     "message": "合計"
@@ -766,7 +766,7 @@
     "message": "新UIへようこそ! (ベータ版)"
   },
   "uiWelcomeMessage": {
-    "message": "現在、MetaMask の新しいUIをお使いになっています。トークン送信など、新たな機能を試してみましょう! 何か問題があればご報告ください。"
+    "message": "現在、Callisto Hub の新しいUIをお使いになっています。トークン送信など、新たな機能を試してみましょう! 何か問題があればご報告ください。"
   },
   "unavailable": {
     "message": "有効ではありません。"
@@ -803,7 +803,7 @@
     "message": "おかえりなさい!"
   },
   "welcome": {
-    "message": "MetaMask ベータ版へようこそ!"
+    "message": "Callisto Hub ベータ版へようこそ!"
   },
   "whatsThis": {
     "message": "この機能について"

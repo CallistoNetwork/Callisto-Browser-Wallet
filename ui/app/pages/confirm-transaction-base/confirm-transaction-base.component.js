@@ -236,7 +236,7 @@ export default class ConfirmTransactionBase extends Component {
               secondaryText={hideFiatConversion ? this.context.t('noConversionRateAvailable') : secondaryTotalTextOverride}
               headerText="Amount + Gas Fee"
               headerTextClassName="confirm-detail-row__header-text--total"
-              primaryValueTextColor="#2f9ae0"
+              primaryValueTextColor="#34c88a"
             />
           </div>
         </div>

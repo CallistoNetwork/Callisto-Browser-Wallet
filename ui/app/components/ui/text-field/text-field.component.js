@@ -24,7 +24,7 @@ const styles = {
   materialFocused: {},
   materialUnderline: {
     '&:after': {
-      borderBottom: '2px solid #f7861c',
+      borderBottom: '2px solid #34c88a',
     },
   },
   materialError: {},
@@ -50,7 +50,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     '&$inputFocused': {
-      border: '1px solid #2f9ae0',
+      border: '1px solid #34c88a',
     },
   },
   largeInputLabel: {

@@ -103,16 +103,16 @@ export default class QrScanner extends Component {
 
     // Here we could add more cases
     // To parse other type of links
-    // For ex. EIP-681 (https://eips.ethereum.org/EIPS/eip-681)
+    // For ex. EIP-681 (https://eips.Callisto Network.org/EIPS/eip-681)
 
 
-    // Ethereum address links - fox ex. ethereum:0x.....1111
+    // Callisto Network address links - fox ex. Callisto Network:0x.....1111
     if (content.split('ethereum:').length > 1) {
 
       type = 'address'
       values = {'address': content.split('ethereum:')[1] }
 
-    // Regular ethereum addresses - fox ex. 0x.....1111
+    // Regular Callisto Network addresses - fox ex. 0x.....1111
     } else if (content.substring(0, 2).toLowerCase() === '0x') {
 
       type = 'address'

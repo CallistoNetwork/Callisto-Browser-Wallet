@@ -181,7 +181,7 @@ function listenForProviderRequest () {
 
 /**
  * Checks if MetaMask is currently operating in "privacy mode", meaning
- * dapps must call ethereum.enable in order to access user accounts
+ * dapps must call Callisto Network.enable in order to access user accounts
  */
 function checkPrivacyMode () {
   extension.runtime.sendMessage({ action: 'init-privacy-request' })

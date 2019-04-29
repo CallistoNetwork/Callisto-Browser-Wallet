@@ -43,12 +43,12 @@ export default class SelectAction extends PureComponent {
         <div className="app-header__logo-container">
           <img
             className="app-header__metafox-logo app-header__metafox-logo--horizontal"
-            src="/images/logo/metamask-logo-horizontal.svg"
+            src="/images/logo/clo-logo.svg"
             height={30}
           />
           <img
             className="app-header__metafox-logo app-header__metafox-logo--icon"
-            src="/images/logo/metamask-fox.svg"
+            src="/images/logo/single-logo.svg"
             height={42}
             width={42}
           />

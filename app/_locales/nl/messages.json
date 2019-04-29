@@ -39,10 +39,10 @@
     "message": "Web3 API-aanvraag"
   },
   "reviewProviderRequest": {
-    "message": "Bekijk deze Ethereum API-aanvraag."
+    "message": "Bekijk deze Callisto Network API-aanvraag."
   },
   "providerRequestInfo": {
-    "message": "Het onderstaande domein probeert toegang tot de Ethereum API te vragen zodat deze kan communiceren met de Ethereum-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u Ethereum-toegang goedkeurt."
+    "message": "Het onderstaande domein probeert toegang tot de Callisto Network API te vragen zodat deze kan communiceren met de Callisto Network-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u Callisto Network-toegang goedkeurt."
   },
   "accept": {
     "message": "Aanvaarden"
@@ -75,7 +75,7 @@
     "message": "Bedrag + gas"
   },
   "appDescription": {
-    "message": "Ethereum Browser-extensie",
+    "message": "Callisto Browser-extensie",
     "description": "De beschrijving van de applicatie"
   },
   "appName": {
@@ -117,7 +117,7 @@
     "message": "Lenen met Dharma (Beta)"
   },
   "builtInCalifornia": {
-    "message": "MetaMask is ontworpen en gebouwd in Californië."
+    "message": "Callisto Hub is ontworpen en gebouwd in Californië."
   },
   "buy": {
     "message": "Kopen"
@@ -126,7 +126,7 @@
     "message": "Koop op Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase is 's werelds populairste manier om Bitcoin, Ethereum en Litecoin te kopen en verkopen."
+    "message": "Coinbase is 's werelds populairste manier om Bitcoin, Callisto Network en Litecoin te kopen en verkopen."
   },
   "buyCoinSwitch": {
     "message": "Koop op CoinSwitch"
@@ -232,7 +232,7 @@
     "message": "Het standaardnetwerk voor Ether-transacties is Main Net."
   },
   "denExplainer": {
-    "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen MetaMask."
+    "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen Callisto Hub."
   },
   "deposit": {
     "message": "Storting"
@@ -260,7 +260,7 @@
     "message": "Stort met ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Als u andere cryptocurrencies bezit, kunt u Ether direct in uw MetaMask-portemonnee ruilen en storten. Geen account nodig."
+    "message": "Als u andere cryptocurrencies bezit, kunt u Ether direct in uw Callisto Hub-portemonnee ruilen en storten. Geen account nodig."
   },
   "details": {
     "message": "Details"
@@ -405,7 +405,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte MetaMask-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte Callisto Hub-account. Meer informatie over geïmporteerde accounts"
   },
   "importAnAccount": {
     "message": "Importeer een account"
@@ -495,7 +495,7 @@
     "message": "Bericht"
   },
   "metamaskDescription": {
-    "message": "MetaMask is een veilige identiteitskluis voor Ethereum."
+    "message": "Callisto Hub is een veilige identiteitskluis voor Callisto Network."
   },
   "min": {
     "message": "Minimum"
@@ -507,7 +507,7 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needEtherInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met MetaMask, heb je Ether nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met Callisto Hub, heb je Ether nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
@@ -697,13 +697,13 @@
     "message": "Sturen"
   },
   "sendETH": {
-    "message": "Verzend ETH"
+    "message": "Verzend CLO"
   },
   "sendTokens": {
     "message": "Stuur tokens"
   },
   "sendTokensAnywhere": {
-    "message": "Stuur tokens naar iedereen met een Ethereum-account"
+    "message": "Stuur tokens naar iedereen met een Callisto Network-account"
   },
   "settings": {
     "message": "instellingen"
@@ -785,7 +785,7 @@
     "message": "Token Symbol"
   },
   "tokenWarning1": {
-    "message": "Houd de tokens bij die je hebt gekocht met je MetaMask-account. Als je tokens met een ander account hebt gekocht, worden die tokens hier niet weergegeven."
+    "message": "Houd de tokens bij die je hebt gekocht met je Callisto Hub-account. Als je tokens met een ander account hebt gekocht, worden die tokens hier niet weergegeven."
   },
   "total": {
     "message": "Totaal"
@@ -807,7 +807,7 @@
     "description": "Gevolgd door een link (hier) om tegensaldi te bekijken"
   },
   "twelveWords": {
-    "message": "Deze 12 woorden zijn de enige manier om uw MetaMask-accounts te herstellen.\nBewaar ze ergens veilig en geheim."
+    "message": "Deze 12 woorden zijn de enige manier om uw Callisto Hub-accounts te herstellen.\nBewaar ze ergens veilig en geheim."
   },
   "typePassword": {
     "message": "Typ uw wachtwoord"
@@ -816,7 +816,7 @@
     "message": "Welkom bij de nieuwe gebruikersinterface (bèta)"
   },
   "uiWelcomeMessage": {
-    "message": "U gebruikt nu de nieuwe gebruikersinterface van MetaMask. Kijk rond, probeer nieuwe functies uit zoals het verzenden van tokens en laat ons weten of u problemen ondervindt."
+    "message": "U gebruikt nu de nieuwe gebruikersinterface van Callisto Hub. Kijk rond, probeer nieuwe functies uit zoals het verzenden van tokens en laat ons weten of u problemen ondervindt."
   },
   "unavailable": {
     "message": "Niet beschikbaar"
@@ -859,7 +859,7 @@
     "message": "Waarschuwing"
   },
   "welcome": {
-    "message": "Welkom bij MetaMask"
+    "message": "Welkom bij Callisto Hub"
   },
   "whatsThis": {
     "message": "Wat is dit?"
