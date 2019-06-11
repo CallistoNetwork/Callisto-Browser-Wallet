@@ -79,7 +79,7 @@ class ProviderApprovalController {
   }
 
   /**
-   * Called by a tab to determine if MetaMask is currently locked or unlocked
+   * Called by a tab to determine if CallistoHub is currently locked or unlocked
    */
   _handleIsUnlocked (tabID) {
     const isUnlocked = this.keyringController.memStore.getState().isUnlocked
@@ -153,7 +153,7 @@ class ProviderApprovalController {
   }
 
   /**
-   * Tells all tabs that MetaMask is now locked. This is primarily used to set
+   * Tells all tabs that CallistoHub is now locked. This is primarily used to set
    * internal flags in the contentscript and inpage script.
    */
   setLocked () {

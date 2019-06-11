@@ -150,7 +150,7 @@
     "message": "Acheter sur Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase est le moyen le plus populaire d'acheter et de vendre des Ethers."
+    "message": "Coinbase est le moyen le plus populaire d'acheter et de vendre des Callistos."
   },
   "buyCoinSwitch": {
     "message": "Acheter sur CoinSwitch"
@@ -319,7 +319,7 @@
     "message": "Décimales de précision"
   },
   "defaultNetwork": {
-    "message": "Le réseau par défaut pour les transactions Ether est le \"Réseau principal Callisto Network\"."
+    "message": "Le réseau par défaut pour les transactions Callisto est le \"Réseau principal Callisto Network\"."
   },
   "denExplainer": {
     "message": "Votre DEN est votre stockage crypté par mot de passe dans Callisto Hub."
@@ -335,10 +335,10 @@
     "description": "Indique à l'utilisateur quelle monnaie il a choisi de déposer avec Shapeshift"
   },
   "depositEth": {
-    "message": "Déposer Eth"
+    "message": "Déposer CLO"
   },
   "depositEther": {
-    "message": "Déposer de l'Ether"
+    "message": "Déposer de l'Callisto"
   },
   "depositFiat": {
     "message": "Déposer de la monnaie-fiat"
@@ -350,7 +350,7 @@
     "message": "Déposer avec ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si vous possédez d'autres crypto-monnaies, vous pouvez échanger et déposer de l'Ether directement dans votre portefeuille Callisto Hub via Shapeshift. Aucun compte n'est requis."
+    "message": "Si vous possédez d'autres crypto-monnaies, vous pouvez échanger et déposer de l'Callisto directement dans votre portefeuille Callisto Hub via Shapeshift. Aucun compte n'est requis."
   },
   "details": {
     "message": "Détails"
@@ -359,10 +359,10 @@
     "message": "Dépôt direct"
   },
   "directDepositEther": {
-    "message": "Dépôt direct d'Ether"
+    "message": "Dépôt direct d'Callisto"
   },
   "directDepositEtherExplainer": {
-    "message": "Si vous avez déjà de l'Ether, le moyen le plus rapide d'obtenir des Ether dans votre nouveau portefeuille est par dépôt direct."
+    "message": "Si vous avez déjà de l'Callisto, le moyen le plus rapide d'obtenir des Callisto dans votre nouveau portefeuille est par dépôt direct."
   },
   "done": {
     "message": "Terminé"
@@ -482,11 +482,11 @@
     "message": "Préparation de la transaction"
   },
   "getEther": {
-    "message": "Obtenir des Ether"
+    "message": "Obtenir des Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Obtenir de l'Ether d'une faucet pour $1",
-    "description": "Affiche le nom du réseau pour la faucet d'Ether"
+    "message": "Obtenir de l'Callisto d'une faucet pour $1",
+    "description": "Affiche le nom du réseau pour la faucet d'Callisto"
   },
   "getHelp": {
     "message": "Obtenir de l'aide."
@@ -533,10 +533,10 @@
     "message": "Historique"
   },
   "howToDeposit": {
-    "message": "Comment voulez-vous déposer de l'Ether?"
+    "message": "Comment voulez-vous déposer de l'Callisto?"
   },
   "holdEther": {
-    "message": "Cela vous permet de conserver vos Ethers et vos jetons afin d'utiliser directement des applications décentralisées."
+    "message": "Cela vous permet de conserver vos Callisto et vos jetons afin d'utiliser directement des applications décentralisées."
   },
   "import": {
     "message": "Importer",
@@ -665,7 +665,7 @@
   "message": {
     "message": "Message"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub est un coffre sécurisé pour votre identité sur Callisto Network."
   },
   "CLOSeedWords": {
@@ -684,7 +684,7 @@
     "message": "Vous devez selectionner au moins 1 jeton."
   },
   "needEtherInWallet": {
-    "message": "Pour interagir avec des applications décentralisées à l'aide de Callisto Hub, vous avez besoin d'Ether dans votre portefeuille."
+    "message": "Pour interagir avec des applications décentralisées à l'aide de Callisto Hub, vous avez besoin d'Callisto dans votre portefeuille."
   },
   "needImportFile": {
     "message": "Vous devez sélectionner un fichier à importer.",
@@ -695,7 +695,7 @@
     "description": "Mot de passe et fichier requis pour importer un compte"
   },
   "negativeETH": {
-    "message": "Vous ne pouvez envoyer des montants négatifs d'ETH."
+    "message": "Vous ne pouvez envoyer des montants négatifs d'CLO."
   },
   "networks": {
     "message": "Réseaux"
@@ -762,7 +762,7 @@
     "message": "Vous êtes revenu à l'ancienne interface utilisateur. Vous pouvez revenir à la nouvelle interface via l'option dans le menu déroulant en haut à droite."
   },
   "onlySendToEtherAddress": {
-    "message": "N'envoyez de l'Ether que sur une adresse Callisto Network."
+    "message": "N'envoyez de l'Callisto que sur une adresse Callisto Network."
   },
   "onlySendTokensToAccountAddress": {
     "message": "N'envoyez des $1 que sur une adresse Callisto Network.",
@@ -1010,7 +1010,7 @@
     "message": "Envoyer des jetons"
   },
   "sentEther": {
-    "message": "Ether envoyé"
+    "message": "Callisto envoyé"
   },
   "sentTokens": {
     "message": "Jetons envoyés"
@@ -1118,7 +1118,7 @@
     "message": "3. Vous pouvez maintenant utiliser des dApps et autres... !"
   },
   "step3HardwareWalletMsg": {
-    "message": "Utilisez ce compte de votre portefeuille hardware comme n'importe quel compte Callisto Network. Connectez vous à des dApps, envoyez de l'Eth, achetez et conservez des jetons ERC20 et Non-Fungible comme CryptoKitties."
+    "message": "Utilisez ce compte de votre portefeuille hardware comme n'importe quel compte Callisto Network. Connectez vous à des dApps, envoyez de l'CLO, achetez et conservez des jetons ERC20 et Non-Fungible comme CryptoKitties."
   },
   "submit": {
     "message": "Soumettre"
@@ -1145,7 +1145,7 @@
     "message": "Destinataire"
   },
   "toETHviaShapeShift": {
-    "message": "$1 à ETH via ShapeShift",
+    "message": "$1 à CLO via ShapeShift",
     "description": "le système remplira le type de dépôt au début du message"
   },
   "token": {

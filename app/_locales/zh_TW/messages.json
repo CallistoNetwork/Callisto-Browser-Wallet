@@ -576,7 +576,7 @@
   },
   "getEtherFromFaucet": {
     "message": "從水管取得 $1 乙太幣。",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Callisto faucet"
   },
   "getHelp": {
     "message": "取得協助"
@@ -771,7 +771,7 @@
   "message": {
     "message": "訊息"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub 是乙太坊安全身份識別金庫"
   },
   "CLOSeedWords": {
@@ -969,7 +969,7 @@
     "message": "主要顯示"
   },
   "primaryCurrencySettingDescription": {
-    "message": "選擇使用乙太幣(ETH)或是法定貨幣(例如：美金)為主要錢幣顯示單位"
+    "message": "選擇使用乙太幣(CLO)或是法定貨幣(例如：美金)為主要錢幣顯示單位"
   },
   "privacyMsg": {
     "message": "隱私政策"
@@ -1363,7 +1363,7 @@
     "message": "目的帳戶"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH 透過 ShapeShift",
+    "message": "$1 CLO 透過 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

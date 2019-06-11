@@ -238,7 +238,7 @@
     "message": "Dokładność liczb po przecinku"
   },
   "defaultNetwork": {
-    "message": "Domyślna sieć dla Eteru to Main Net."
+    "message": "Domyślna sieć dla Callisto to Main Net."
   },
   "denExplainer": {
     "message": "Twój DEN to chroniony hasłem schowek w Callisto Hubu."
@@ -254,7 +254,7 @@
     "description": "Pokazuje użytkownikowi jakie waluty wybrał do zdeponowania w ShapeShift"
   },
   "depositEth": {
-    "message": "Zdeponuj Eth"
+    "message": "Zdeponuj CLO"
   },
   "depositEther": {
     "message": "Zdeponuj Eter"
@@ -593,7 +593,7 @@
   "message": {
     "message": "Wiadomość"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub to bezpieczny portfel dla Callisto Network."
   },
   "CLOSeedWords": {
@@ -623,7 +623,7 @@
     "description": "Hasło i plik niezbędne do zaimportowania konta"
   },
   "negativeETH": {
-    "message": "Nie można wysłać ujemnych ilości ETH."
+    "message": "Nie można wysłać ujemnych ilości CLO."
   },
   "networks": {
     "message": "Sieci"
@@ -934,7 +934,7 @@
     "message": "Oddziel słowa pojedynczą spacją"
   },
   "onlySendToEtherAddress": {
-    "message": "Na adres Callisto Network wysyłaj tylko ETH."
+    "message": "Na adres Callisto Network wysyłaj tylko CLO."
   },
   "onlySendTokensToAccountAddress": {
     "message": "Wyślij tylko $1 na adres konta Callisto Network.",
@@ -986,7 +986,7 @@
     "message": "3. Zacznij używać dystrybuowanych aplikacji (dApps) i wiele więcej!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Używaj swojego konta sprzętowego tak, jak używasz jakiegokolwiek konta z Callisto Network. Loguj się do dystrybuowanych aplikacji (dApps), wysyłaj Eth, kupuj i przechowaj tokeny ERC20 i niewymienne tokeny, jak np. CryptoKitties."
+    "message": "Używaj swojego konta sprzętowego tak, jak używasz jakiegokolwiek konta z Callisto Network. Loguj się do dystrybuowanych aplikacji (dApps), wysyłaj CLO, kupuj i przechowaj tokeny ERC20 i niewymienne tokeny, jak np. CryptoKitties."
   },
   "info": {
     "message": "Info"
@@ -1061,13 +1061,13 @@
     "message": "Regulamin"
   },
   "testFaucet": {
-    "message": "Źródło testowego ETH"
+    "message": "Źródło testowego CLO"
   },
   "to": {
     "message": "Do"
   },
   "toETHviaShapeShift": {
-    "message": "$1 na ETH przez ShapeShift",
+    "message": "$1 na CLO przez ShapeShift",
     "description": "system uzupełni typ depozytu na początku wiadomości"
   },
   "token": {

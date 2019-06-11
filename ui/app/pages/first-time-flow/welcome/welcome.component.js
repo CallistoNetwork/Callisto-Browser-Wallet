@@ -52,7 +52,7 @@ export default class Welcome extends PureComponent {
             { t('welcome') }
           </div>
           <div className="welcome-page__description">
-            <div>{ t('metamaskDescription') }</div>
+            <div>{ t('callistoHubDescription') }</div>
             <div>{ t('happyToSeeYou') }</div>
           </div>
           <Button

@@ -177,18 +177,18 @@ detectAccountRequest('sendAsync')
 //
 
 if (typeof window.web3 !== 'undefined') {
-  throw new Error(`MetaMask detected another web3.
-     MetaMask will not work reliably with another web3 extension.
-     This usually happens if you have two MetaMasks installed,
-     or MetaMask and another web3 extension. Please remove one
-     and try again.`)
+  throw new Error(`CallistoHub detected another web3.
+    CallistoHub will not work reliably with another web3 extension.
+    This usually happens if you have two CallistoHub installed,
+    or CallistoHub and another web3 extension. Please remove one
+    and try again.`)
 }
 
 const web3 = new Web3(proxiedInpageProvider)
 web3.setProvider = function () {
-  log.debug('MetaMask - overrode web3.setProvider')
+  log.debug('CallistoHub - overrode web3.setProvider')
 }
-log.debug('MetaMask - injected web3')
+log.debug('CallistoHub - injected web3')
 
 setupDappAutoReload(web3, inpageProvider.publicConfigStore)
 
@@ -239,7 +239,7 @@ function cleanContextForImports () {
   try {
     global.define = undefined
   } catch (_) {
-    console.warn('MetaMask - global.define could not be deleted.')
+    console.warn('CallistoHub - global.define could not be deleted.')
   }
 }
 
@@ -250,6 +250,6 @@ function restoreContextAfterImports () {
   try {
     global.define = __define
   } catch (_) {
-    console.warn('MetaMask - global.define could not be overwritten.')
+    console.warn('CallistoHub - global.define could not be overwritten.')
   }
 }

@@ -229,7 +229,7 @@
     "message": "Decimalen van precisie"
   },
   "defaultNetwork": {
-    "message": "Het standaardnetwerk voor Ether-transacties is Main Net."
+    "message": "Het standaardnetwerk voor Callisto-transacties is Main Net."
   },
   "denExplainer": {
     "message": "Uw DEN is uw wachtwoord-gecodeerde opslag binnen Callisto Hub."
@@ -245,10 +245,10 @@
     "description": "Laat de gebruiker weten welk muntje ze hebben geselecteerd om te deponeren met shapeshift"
   },
   "depositEth": {
-    "message": "Aanbetaling Eth"
+    "message": "Aanbetaling CLO"
   },
   "depositEther": {
-    "message": "Stort Ether"
+    "message": "Stort Callisto"
   },
   "depositFiat": {
     "message": "Stort met Fiat"
@@ -260,7 +260,7 @@
     "message": "Stort met ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Als u andere cryptocurrencies bezit, kunt u Ether direct in uw Callisto Hub-portemonnee ruilen en storten. Geen account nodig."
+    "message": "Als u andere cryptocurrencies bezit, kunt u Callisto direct in uw Callisto Hub-portemonnee ruilen en storten. Geen account nodig."
   },
   "details": {
     "message": "Details"
@@ -269,10 +269,10 @@
     "message": "Directe storting"
   },
   "directDepositEther": {
-    "message": "Directe Ether storten"
+    "message": "Directe Callisto storten"
   },
   "directDepositEtherExplainer": {
-    "message": "Als je al wat Ether hebt, de snelste manier om Ether in je nieuwe portemonnee te krijgen door een directe storting."
+    "message": "Als je al wat Callisto hebt, de snelste manier om Callisto in je nieuwe portemonnee te krijgen door een directe storting."
   },
   "done": {
     "message": "Gedaan"
@@ -365,11 +365,11 @@
     "message": "Gasprijs vereist"
   },
   "getEther": {
-    "message": "Krijg Ether"
+    "message": "Krijg Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Haal Ether uit een kraan voor de $1",
-    "description": "Geeft de netwerknaam voor Ether-kraan weer"
+    "message": "Haal Callisto uit een kraan voor de $1",
+    "description": "Geeft de netwerknaam voor Callisto-kraan weer"
   },
   "greaterThanMin": {
     "message": "moet groter zijn dan of gelijk zijn aan $1.",
@@ -392,10 +392,10 @@
     "message": "Token verbergen?"
   },
   "howToDeposit": {
-    "message": "Hoe zou je Ether willen deponeren?"
+    "message": "Hoe zou je Callisto willen deponeren?"
   },
   "holdEther": {
-    "message": "Hiermee kunt u ether & tokens bewaren en dient u als brug naar gedecentraliseerde applicaties."
+    "message": "Hiermee kunt u Callisto & tokens bewaren en dient u als brug naar gedecentraliseerde applicaties."
   },
   "import": {
     "message": "Importeren",
@@ -494,7 +494,7 @@
   "message": {
     "message": "Bericht"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub is een veilige identiteitskluis voor Callisto Network."
   },
   "min": {
@@ -507,7 +507,7 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needEtherInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met Callisto Hub, heb je Ether nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met Callisto Hub, heb je Callisto nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
@@ -518,7 +518,7 @@
     "description": "Wachtwoord en bestand nodig om een ​​account te importeren"
   },
   "negativeETH": {
-    "message": "Kan geen negatieve hoeveelheden ETH verzenden."
+    "message": "Kan geen negatieve hoeveelheden CLO verzenden."
   },
   "networks": {
     "message": "netwerken"
@@ -766,7 +766,7 @@
     "message": "Naar"
   },
   "toETHviaShapeShift": {
-    "message": "$1 tot ETH via ShapeShift",
+    "message": "$1 tot CLO via ShapeShift",
     "description": "systeem zal het aanbetalingstype invullen bij het begin van het bericht"
   },
   "tokenAddress": {

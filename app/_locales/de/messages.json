@@ -238,7 +238,7 @@
     "message": "Dezimalangabe der Präzision"
   },
   "defaultNetwork": {
-    "message": "Das Standardnetzwerk für Ether Transaktionen ist das Main Net."
+    "message": "Das Standardnetzwerk für Callisto Transaktionen ist das Main Net."
   },
   "denExplainer": {
     "message": "Dein DEN ist dein passwortverschlüsselter Speicher innerhalb von Callisto Hub."
@@ -254,10 +254,10 @@
     "description": "Teilt dem Benutzer mit welchen Token er beim Einzahlen mit Shapeshift ausgewählt hat"
   },
   "depositEth": {
-    "message": "Eth kaufen"
+    "message": "CLO kaufen"
   },
   "depositEther": {
-    "message": "Ether einzahlen"
+    "message": "Callisto einzahlen"
   },
   "depositFiat": {
     "message": "Fiat einzahlen"
@@ -278,10 +278,10 @@
     "message": "Sofortige Einzahlung"
   },
   "directDepositEther": {
-    "message": "Sofort Ether einzahlen"
+    "message": "Sofort Callisto einzahlen"
   },
   "directDepositEtherExplainer": {
-    "message": "Wenn du bereits Ether besitzt, ist die sofortige Einzahlung die schnellste Methode Ether in deine neue Wallet zu bekommen."
+    "message": "Wenn du bereits Callisto besitzt, ist die sofortige Einzahlung die schnellste Methode Callisto in deine neue Wallet zu bekommen."
   },
   "done": {
     "message": "Fertig"
@@ -383,11 +383,11 @@
     "message": "Gaspreis benötigt"
   },
   "getEther": {
-    "message": "Ether holen"
+    "message": "Callisto holen"
   },
   "getEtherFromFaucet": {
-    "message": "Ether für $1 vom Faucet holen",
-    "description": "Zeigt den Netzwerknamen für den Ether Faucet an"
+    "message": "Callisto für $1 vom Faucet holen",
+    "description": "Zeigt den Netzwerknamen für den Callisto Faucet an"
   },
   "greaterThanMin": {
     "message": "Muss größer oder gleich $1 sein.",
@@ -410,10 +410,10 @@
     "message": "Token ausblenden?"
   },
   "howToDeposit": {
-    "message": "Wie möchtest du Ether einzahlen?"
+    "message": "Wie möchtest du Callisto einzahlen?"
   },
   "holdEther": {
-    "message": "Es erlaubt dir ether & Token zu halten und dient dir als Verbindung zu dezentralisierten Applikationen."
+    "message": "Es erlaubt dir Callisto & Token zu halten und dient dir als Verbindung zu dezentralisierten Applikationen."
   },
   "import": {
     "message": "Importieren",
@@ -518,7 +518,7 @@
   "message": {
     "message": "Nachricht"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub ist ein sicherer Identitätssafe für Callisto Network."
   },
   "min": {
@@ -531,7 +531,7 @@
     "message": "Du musst mindestens 1 Token auswählen."
   },
   "needEtherInWallet": {
-    "message": "Um dezentralisierte Applikationen mit Callisto Hub verwenden zu können, benötigst du Ether in deiner Wallet."
+    "message": "Um dezentralisierte Applikationen mit Callisto Hub verwenden zu können, benötigst du Callisto in deiner Wallet."
   },
   "needImportFile": {
     "message": "Für den Import musst du eine Datei auswählen.",
@@ -542,7 +542,7 @@
     "description": "Passwort und Datei sind notwendig um einen Account zu importieren"
   },
   "negativeETH": {
-    "message": "Negative ETH Beträge können nicht versendet werden."
+    "message": "Negative CLO Beträge können nicht versendet werden."
   },
   "networks": {
     "message": "Netzwerke"
@@ -832,7 +832,7 @@
     "message": "An"
   },
   "toETHviaShapeShift": {
-    "message": "$1 an ETH via ShapeShift",
+    "message": "$1 an CLO via ShapeShift",
     "description": "Das System wird den Einzahlungstyp im Beginn der Nachricht eintragen"
   },
   "tokenAddress": {

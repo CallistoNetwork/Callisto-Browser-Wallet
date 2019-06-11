@@ -241,7 +241,7 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro Etherové transakce je Main Net."
+    "message": "Výchozí síť pro Callisto transakce je Main Net."
   },
   "denExplainer": {
     "message": "Váš DEN je heslem šifrované uložiště v Callisto Hubu."
@@ -257,10 +257,10 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "Vložit Eth"
+    "message": "Vložit Clo"
   },
   "depositEther": {
-    "message": "Vložit Ether"
+    "message": "Vložit Clo"
   },
   "depositFiat": {
     "message": "Vklad s fiat měnou"
@@ -272,7 +272,7 @@
     "message": "Vklad přes ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit Ether a vložit ho přímo do peněženky Callisto Hub. Bez založení účtu."
+    "message": "Pokud vlastníte jiné kryptoměny, můžete je směnit Callisto a vložit ho přímo do peněženky Callisto Hub. Bez založení účtu."
   },
   "details": {
     "message": "Podrobnosti"
@@ -281,10 +281,10 @@
     "message": "Přímý vklad"
   },
   "directDepositEther": {
-    "message": "Vložit Ether přímo"
+    "message": "Vložit Callisto přímo"
   },
   "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký Callisto, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
     "message": "Hotovo"
@@ -386,11 +386,11 @@
     "message": "Cena paliva je povinná"
   },
   "getEther": {
-    "message": "Získejte Ether"
+    "message": "Získejte Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte Ether z faucetu za $1.",
-    "description": "Displays network name for Ether faucet"
+    "message": "Získejte Callisto z faucetu za $1.",
+    "description": "Displays network name for Callisto faucet"
   },
   "greaterThanMin": {
     "message": "musí být větší nebo roven $1.",
@@ -413,10 +413,10 @@
     "message": "Skrýt token?"
   },
   "howToDeposit": {
-    "message": "Jakým způsobem chcete vložit Ether?"
+    "message": "Jakým způsobem chcete vložit Callisto?"
   },
   "holdEther": {
-    "message": "Dovoluje vám držet ether a tokeny a slouží jako most k decentralizovaným aplikacím."
+    "message": "Dovoluje vám držet Callisto a tokeny a slouží jako most k decentralizovaným aplikacím."
   },
   "import": {
     "message": "Import",
@@ -527,7 +527,7 @@
   "message": {
     "message": "Zpráva"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub je bezpečný osobní trezor pro Callisto Network."
   },
   "min": {
@@ -540,7 +540,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí Callisto Hubu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete Callisto v peněžence, abyste mohli pomocí Callisto Hubu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -551,7 +551,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeETH": {
-    "message": "Nelze odeslat zápornou částku ETH."
+    "message": "Nelze odeslat zápornou částku CLO."
   },
   "networks": {
     "message": "Sítě"
@@ -853,7 +853,7 @@
     "message": "Komu"
   },
   "toETHviaShapeShift": {
-    "message": "$1 na ETH přes ShapeShift",
+    "message": "$1 na CLO přes ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

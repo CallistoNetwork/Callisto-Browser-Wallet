@@ -70,22 +70,22 @@ AccountDetailsDropdown.prototype.render = function () {
     h(CloseArea, {
       onClick: this.onClose,
     }),
-    h(Item, {
-      onClick: (e) => {
-        e.stopPropagation()
-        this.context.metricsEvent({
-          eventOpts: {
-            category: 'Navigation',
-            action: 'Account Options',
-            name: 'Clicked Expand View',
-          },
-        })
-        global.platform.openExtensionInBrowser()
-        this.props.onClose()
-      },
-      text: this.context.t('expandView'),
-      icon: h(`img`, { src: 'images/expand.svg', style: { height: '15px' } }),
-    }),
+    // h(Item, {
+    //   onClick: (e) => {
+    //     e.stopPropagation()
+    //     this.context.metricsEvent({
+    //       eventOpts: {
+    //         category: 'Navigation',
+    //         action: 'Account Options',
+    //         name: 'Clicked Expand View',
+    //       },
+    //     })
+    //     global.platform.openExtensionInBrowser()
+    //     this.props.onClose()
+    //   },
+    //   text: this.context.t('expandView'),
+    //   icon: h(`img`, { src: 'images/expand.svg', style: { height: '15px' } }),
+    // }),
     h(Item, {
       onClick: (e) => {
         e.stopPropagation()

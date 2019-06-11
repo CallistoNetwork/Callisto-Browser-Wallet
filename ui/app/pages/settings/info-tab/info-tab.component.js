@@ -110,25 +110,20 @@ export default class InfoTab extends PureComponent {
           <div className="settings-page__content-item settings-page__content-item--without-height">
             <div className="info-tab__logo-wrapper">
               <img
-                src="images/info-logo.png"
+                src="images/mini-logo.svg"
                 className="info-tab__logo"
               />
             </div>
             <div className="info-tab__item">
               <div className="info-tab__version-header">
-                { t('metamaskVersion') }
+                { t('callistoHubVersion') }
               </div>
               <div className="info-tab__version-number">
                 { this.state.version }
               </div>
             </div>
-            <div className="info-tab__item">
-              <div className="info-tab__about">
-                { t('builtInCalifornia') }
-              </div>
-            </div>
           </div>
-          { this.renderInfoLinks() }
+          {/* { this.renderInfoLinks() } */}
         </div>
       </div>
     )

@@ -177,7 +177,7 @@ class CurrencyController {
       }
     } catch (err) {
       // reset current conversion rate
-      log.warn(`MetaMask - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
+      log.warn(`CallistoHub - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
       this.setConversionRate(0)
       this.setConversionDate('N/A')
       // throw error

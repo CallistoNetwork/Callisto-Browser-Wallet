@@ -190,7 +190,7 @@
     "message": "Tùy chỉnh"
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch Ether là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch Callisto là Main Net (tiền CLO thật)."
   },
   "denExplainer": {
     "message": "Số DEN của bạn là mật khẩu đã được mã hóa và lưu trữ trong Callisto Hub"
@@ -206,10 +206,10 @@
     "message": "Ký gửi $1 đến địa chỉ sau:"
   },
   "depositEth": {
-    "message": "Ký gửi Eth"
+    "message": "Ký gửi CLO"
   },
   "depositEther": {
-    "message": "Ký gửi Ether"
+    "message": "Ký gửi Callisto"
   },
   "depositFiat": {
     "message": "Ký gửi bằng tiền Fiat (USD, GBP, ...)"
@@ -221,7 +221,7 @@
     "message": "Ký gửi với ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Nếu bạn sở hữu các đồng tiền điện tử khác, bạn có thể giao dịch và ký gửi Ether trực tiếp vào ví Callisto Hub của bạn. Không cần tạo thêm tài khoản."
+    "message": "Nếu bạn sở hữu các đồng tiền điện tử khác, bạn có thể giao dịch và ký gửi Callisto trực tiếp vào ví Callisto Hub của bạn. Không cần tạo thêm tài khoản."
   },
   "details": {
     "message": "Chi tiết"
@@ -230,10 +230,10 @@
     "message": "Ký gửi trực tiếp"
   },
   "directDepositEther": {
-    "message": "Ký gửi Ether trực tiếp"
+    "message": "Ký gửi Callisto trực tiếp"
   },
   "directDepositEtherExplainer": {
-    "message": "Nếu bạn đã có sẵn vài Ether, cách nhanh nhất để thêm Ether vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
+    "message": "Nếu bạn đã có sẵn vài Callisto, cách nhanh nhất để thêm Callisto vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
   },
   "done": {
     "message": "Hoàn tất"
@@ -308,11 +308,11 @@
     "message": "Giá ga được yêu cầu"
   },
   "getEther": {
-    "message": "Lấy Ether"
+    "message": "Lấy Callisto"
   },
   "getEtherFromFaucet": {
-    "description": "Hiển thị tên mạng cho vòi Ether",
-    "message": "Lấy Ether từ vòi với giá $1"
+    "description": "Hiển thị tên mạng cho vòi Callisto",
+    "message": "Lấy Callisto từ vòi với giá $1"
   },
   "greaterThanMin": {
     "description": "trợ giúp để nhập hex dưới dạng số thập phân",
@@ -332,7 +332,7 @@
     "message": "Ẩn mã token?"
   },
   "howToDeposit": {
-    "message": "Bạn muốn ký gửi Ether bằng cách nào?"
+    "message": "Bạn muốn ký gửi Callisto bằng cách nào?"
   },
   "import": {
     "description": "Nút để nhập tài khoản từ một tập tin đã chọn",
@@ -396,7 +396,7 @@
     "message": "Nới lỏng"
   },
   "mainnet": {
-    "message": "Mạng CLO MainNet (tiền ETH thật)"
+    "message": "Mạng CLO MainNet (tiền CLO thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -408,7 +408,7 @@
     "message": "Tài khoản của tôi"
   },
   "needEtherInWallet": {
-    "message": "Để tương tác với các ứng dụng phân tán bằng Callisto Hub, bạn sẽ phải cần có Ether trong ví của bạn."
+    "message": "Để tương tác với các ứng dụng phân tán bằng Callisto Hub, bạn sẽ phải cần có Callisto trong ví của bạn."
   },
   "needImportFile": {
     "description": "Người dùng đang nhập một tài khoản và cần thêm tập tin để tiếp tục",
@@ -589,14 +589,14 @@
     "message": "Chờ quá lâu?"
   },
   "testFaucet": {
-    "message": "Vòi nhận tiền ETH ảo để thử nghiệm"
+    "message": "Vòi nhận tiền CLO ảo để thử nghiệm"
   },
   "to": {
     "message": "Đến"
   },
   "toETHviaShapeShift": {
     "description": "hệ thống sẽ điền vào loại tiền gửi khi bắt đầu tin nhắn",
-    "message": "$1 thành ETH qua ShapeShift"
+    "message": "$1 thành CLO qua ShapeShift"
   },
   "tokenBalance": {
     "message": "Số dư token của bạn là:"

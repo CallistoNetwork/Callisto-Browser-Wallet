@@ -253,7 +253,7 @@
     "message": "Los decimales deben ser al menos 0 y no más de 36"
   },
   "defaultNetwork": {
-    "message": "La red por defecto para las transacciones de Ether es MainNet (red principal)"
+    "message": "La red por defecto para las transacciones de Callisto es MainNet (red principal)"
   },
   "denExplainer": {
     "message": "El DEN es tu contraseña encriptada almacenada dentro de Callisto Hub"
@@ -269,10 +269,10 @@
     "description": "Informa al usuario que moneda ha elegido para depositar en shapeshift"
   },
   "depositEth": {
-    "message": "Depositar Ether"
+    "message": "Depositar Callisto"
   },
   "depositEther": {
-    "message": "Depositar Ether"
+    "message": "Depositar Callisto"
   },
   "depositFiat": {
     "message": "Depositar con fiat (divisa nacional)"
@@ -284,7 +284,7 @@
     "message": "Depositar con ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si posees otras criptomonedas, puedes intercambiar y depositar Ether directamente en tu billetera de Callisto Hub. No necesitas tener una cuenta."
+    "message": "Si posees otras criptomonedas, puedes intercambiar y depositar Callisto directamente en tu billetera de Callisto Hub. No necesitas tener una cuenta."
   },
   "details": {
     "message": "Detalles"
@@ -293,10 +293,10 @@
     "message": "Depósito directo"
   },
   "directDepositEther": {
-    "message": "Depositar Ether directamente"
+    "message": "Depositar Callisto directamente"
   },
   "directDepositEtherExplainer": {
-    "message": "Si posees Ether, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
+    "message": "Si posees Callisto, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
   },
   "done": {
     "message": "Completo"
@@ -392,11 +392,11 @@
     "message": "Generando semilla..."
   },
   "getEther": {
-    "message": "Conseguir Ether"
+    "message": "Conseguir Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Obtenga Ether de un faucet (grifo) por $1",
-    "description": "Muestra el nombre de la red para el faucet (grifo) de Ether"
+    "message": "Obtenga Callisto de un faucet (grifo) por $1",
+    "description": "Muestra el nombre de la red para el faucet (grifo) de Callisto"
   },
   "greaterThanMin": {
     "message": "Debe ser mayor o igual a $1",
@@ -419,10 +419,10 @@
     "message": "¿Ocultar token?"
   },
   "holdEther": {
-    "message": "Te permite mantener tus ether y tokens, así como puente para aplicaciones descentralizadas"
+    "message": "Te permite mantener tus Callisto y tokens, así como puente para aplicaciones descentralizadas"
   },
   "howToDeposit": {
-    "message": "¿Cómo te gustaria depositar Ether?"
+    "message": "¿Cómo te gustaria depositar Callisto?"
   },
   "import": {
     "message": "Importar",
@@ -463,7 +463,7 @@
     "message": "Dirección del destinatario invalida"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No es una red ETH, convertirlo a minúscula"
+    "message": "No es una red CLO, convertirlo a minúscula"
   },
   "invalidGasParams": {
     "message": "Parametros de gas inválidos"
@@ -533,7 +533,7 @@
   "message": {
     "message": "Mensaje"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub es una identidad segura en Callisto Network"
   },
   "min": {
@@ -557,7 +557,7 @@
     "description": "Contraseña y archivo necesarios para importar una cuenta"
   },
   "negativeETH": {
-    "message": "No se pueden mandar cantidades negativas de ETH"
+    "message": "No se pueden mandar cantidades negativas de CLO"
   },
   "networks": {
     "message": "Redes"
@@ -832,7 +832,7 @@
     "message": "Para"
   },
   "toETHviaShapeShift": {
-    "message": "$1 a ETH via ShapeShift",
+    "message": "$1 a CLO via ShapeShift",
     "description": "el sistema llenará el tipo de depósito al principio del mensaje"
   },
   "tokenAddress": {
@@ -1250,7 +1250,7 @@
     "message": "Moneda principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. ETH). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
+    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. CLO). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
   },
   "queue": {
     "message": "Cola"
@@ -1331,7 +1331,7 @@
     "message": "Mandar cantidad"
   },
   "sentEther": {
-    "message": "se mandó ether"
+    "message": "se mandó Callisto"
   },
   "sentTokens": {
     "message": "se mandaron tokens"

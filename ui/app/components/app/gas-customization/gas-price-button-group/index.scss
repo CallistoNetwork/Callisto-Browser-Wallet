@@ -130,7 +130,7 @@
 
   .button-group__button--active {
     color: $white;
-    background: $dodger-blue;
+    background: $clo-green;
 
     i {
       &:last-child {
@@ -214,7 +214,7 @@
 
   .button-group__button--active {
     background: #F7FCFF;
-    border: 2px solid #2C8BDC;
+    border: 2px solid $clo-green;
 
     .button-check-wrapper {
       height: 16px;

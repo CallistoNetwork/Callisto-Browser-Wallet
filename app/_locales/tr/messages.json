@@ -241,7 +241,7 @@
     "message": "Ondalık hassasiyeti"
   },
   "defaultNetwork": {
-    "message": "Ether işlemleri için varsayılan ağ Main Net."
+    "message": "Callisto işlemleri için varsayılan ağ Main Net."
   },
   "denExplainer": {
     "message": "DEN'iniz Callisto Hub içersinde parola-şifrelenmiş deponuzdur."
@@ -257,10 +257,10 @@
     "description": "Kullanıcıya hangi jetonu seçtiyse onu yatırmasını shapeshift ile söyler."
   },
   "depositEth": {
-    "message": "Eth yatır"
+    "message": "Clo yatır"
   },
   "depositEther": {
-    "message": "Ether yatır"
+    "message": "Callisto yatır"
   },
   "depositFiat": {
     "message": "Para yatır"
@@ -272,7 +272,7 @@
     "message": "ShapeShift ile yatır"
   },
   "depositShapeShiftExplainer": {
-    "message": "Eğer başka kripto paralara sahipseniz, Callisto Hub cüzdanınıza direk olarak Ether yatırabilirsiniz. Hesaba gerek yoktur."
+    "message": "Eğer başka kripto paralara sahipseniz, Callisto Hub cüzdanınıza direk olarak Callisto yatırabilirsiniz. Hesaba gerek yoktur."
   },
   "details": {
     "message": "Ayrıntılar"
@@ -281,10 +281,10 @@
     "message": "Direk Yatırma"
   },
   "directDepositEther": {
-    "message": "Direk Ether Yatırma"
+    "message": "Direk Callisto Yatırma"
   },
   "directDepositEtherExplainer": {
-    "message": "Eğer çoktan Etheriniz varsa, yeni hesabınıza Ether aktarmanın en kolay yolu direk yatırmadır."
+    "message": "Eğer çoktan Callisto varsa, yeni hesabınıza Callisto aktarmanın en kolay yolu direk yatırmadır."
   },
   "done": {
     "message": "Bitti"
@@ -386,11 +386,11 @@
     "message": "Gas Fiyatı Gereklidir"
   },
   "getEther": {
-    "message": "Ether Al"
+    "message": "Callisto Al"
   },
   "getEtherFromFaucet": {
-    "message": "Musluktan $1 karşılığı Ether alın",
-    "description": "Ether musluğunun ağ ismini gösterir"
+    "message": "Musluktan $1 karşılığı Callisto alın",
+    "description": "Callisto musluğunun ağ ismini gösterir"
   },
   "greaterThanMin": {
     "message": "must be greater than or equal to $1.",
@@ -413,10 +413,10 @@
     "message": "Jetonu gizle?"
   },
   "howToDeposit": {
-    "message": "Ether'i nasıl yatırmak istersiniz?"
+    "message": "Callisto'i nasıl yatırmak istersiniz?"
   },
   "holdEther": {
-    "message": "Ether ve jeton tutmanızı sağlar ve merkezi olmayan uygulamalar ve sizin aranızda köprü vazifesi görür."
+    "message": "Callisto ve jeton tutmanızı sağlar ve merkezi olmayan uygulamalar ve sizin aranızda köprü vazifesi görür."
   },
   "import": {
     "message": "Al",
@@ -527,7 +527,7 @@
   "message": {
     "message": "Mesaj"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub Callisto Network için güvenli bir kimlik kasasıdır."
   },
   "min": {
@@ -540,7 +540,7 @@
     "message": "En az bir jeton seçilmeli"
   },
   "needEtherInWallet": {
-    "message": "Callisto Hub kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Ether bulunmalıdır."
+    "message": "Callisto Hub kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Callisto bulunmalıdır."
   },
   "needImportFile": {
     "message": "Almak için bir dosya seçmelisiniz.",
@@ -551,7 +551,7 @@
     "description": "Hesap almak için parola ve dosya gerekiyor."
   },
   "negativeETH": {
-    "message": "Negatif ETH miktarları gönderilemez."
+    "message": "Negatif CLO miktarları gönderilemez."
   },
   "networks": {
     "message": "Ağlar"
@@ -853,7 +853,7 @@
     "message": "Kime"
   },
   "toETHviaShapeShift": {
-    "message": "ShapeShift üstünden $1'dan ETH'e",
+    "message": "ShapeShift üstünden $1'dan CLO'e",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

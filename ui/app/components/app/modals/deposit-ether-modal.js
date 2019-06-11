@@ -180,52 +180,6 @@ DepositEtherModal.prototype.render = function () {
           hide: !isTestNetwork || buyingWithShapeshift,
         }),
 
-        this.renderRow({
-          logo: h('div.deposit-ether-modal__logo', {
-            style: {
-              backgroundImage: 'url(\'./images/wyre.svg\')',
-              height: '40px',
-            },
-          }),
-          title: WYRE_ROW_TITLE,
-          text: WYRE_ROW_TEXT,
-          buttonLabel: this.context.t('continueToWyre'),
-          onButtonClick: () => toWyre(address),
-          hide: isTestNetwork || buyingWithShapeshift,
-        }),
-
-        this.renderRow({
-          logo: h('div.deposit-ether-modal__logo', {
-            style: {
-              backgroundImage: 'url(\'./images/coinswitch_logo.png\')',
-              height: '40px',
-            },
-          }),
-          title: COINSWITCH_ROW_TITLE,
-          text: COINSWITCH_ROW_TEXT,
-          buttonLabel: this.context.t('continueToCoinSwitch'),
-          onButtonClick: () => toCoinSwitch(address),
-          hide: isTestNetwork || buyingWithShapeshift,
-        }),
-
-        this.renderRow({
-          logo: h('div.deposit-ether-modal__logo', {
-            style: {
-              backgroundImage: 'url(\'./images/shapeshift logo.png\')',
-            },
-          }),
-          title: SHAPESHIFT_ROW_TITLE,
-          text: SHAPESHIFT_ROW_TEXT,
-          buttonLabel: this.context.t('shapeshiftBuy'),
-          onButtonClick: () => this.setState({ buyingWithShapeshift: true }),
-          hide: isTestNetwork,
-          hideButton: buyingWithShapeshift,
-          hideTitle: buyingWithShapeshift,
-          onBackClick: () => this.setState({ buyingWithShapeshift: false }),
-          showBackButton: this.state.buyingWithShapeshift,
-          className: buyingWithShapeshift && 'deposit-ether-modal__buy-row__shapeshift-buy',
-        }),
-
         buyingWithShapeshift && h(ShapeshiftForm),
 
       ]),

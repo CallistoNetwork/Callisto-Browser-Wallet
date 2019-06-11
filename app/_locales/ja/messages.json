@@ -120,7 +120,7 @@
     "message": "Coinbaseのサイトで購入"
   },
   "buyCoinbaseExplainer": {
-    "message": "Etherを購入できます。Coinbaseは、世界的なBitcoin、Callisto Network、そしてLitecoinの取引所です。"
+    "message": "Callistoを購入できます。Coinbaseは、世界的なBitcoin、Callisto、そしてLitecoinの取引所です。"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitchのサイトで購入"
@@ -217,7 +217,7 @@
     "message": "小数点桁数"
   },
   "defaultNetwork": {
-    "message": "デフォルトのEther送受信ネットワークはメインネットです。"
+    "message": "デフォルトのCallisto送受信ネットワークはメインネットです。"
   },
   "denExplainer": {
     "message": "DENとは、あなたのパスワードが暗号化されたCallisto Hub内のストレージです。"
@@ -233,10 +233,10 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "ETHを入金"
+    "message": "CLOを入金"
   },
   "depositEther": {
-    "message": "Etherを振込"
+    "message": "Callistoを振込"
   },
   "depositFiat": {
     "message": "法定通貨でデポジット"
@@ -248,7 +248,7 @@
     "message": "ShapeShiftで交換"
   },
   "depositShapeShiftExplainer": {
-    "message": "他の暗号通貨とEtherを交換して、Callisto Hubのウォレットへ入金できます。アカウント作成は不要です。"
+    "message": "他の暗号通貨とCallistoを交換して、Callisto Hubのウォレットへ入金できます。アカウント作成は不要です。"
   },
   "details": {
     "message": "詳細"
@@ -257,10 +257,10 @@
     "message": "ダイレクトデポジット"
   },
   "directDepositEther": {
-    "message": "Etherを直接入金"
+    "message": "Callistoを直接入金"
   },
   "directDepositEtherExplainer": {
-    "message": "既にEtherをお持ちなら、Callisto Hubの新しいウォレットにEtherを送信することができます。"
+    "message": "既にCallistoをお持ちなら、Callisto Hubの新しいウォレットにCallistoを送信することができます。"
   },
   "done": {
     "message": "完了"
@@ -335,11 +335,11 @@
     "message": "必要ガスプライス"
   },
   "getEther": {
-    "message": "Etherを取得する"
+    "message": "Callistoを取得する"
   },
   "getEtherFromFaucet": {
-    "message": "フォーセットで $1のEtherを得ることができます。",
-    "description": "Displays network name for Ether faucet"
+    "message": "フォーセットで $1のCallistoを得ることができます。",
+    "description": "Displays network name for Callisto faucet"
   },
   "greaterThanMin": {
     "message": " $1以上にして下さい。",
@@ -359,7 +359,7 @@
     "message": "トークンを隠しますか?"
   },
   "howToDeposit": {
-    "message": "どのようにEtherをデポジットしますか?"
+    "message": "どのようにCallistoをデポジットしますか?"
   },
   "import": {
     "message": "追加",
@@ -465,7 +465,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needEtherInWallet": {
-    "message": "Callisto Hubで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
+    "message": "Callisto Hubで分散型アプリケーションを使用するためには、このウォレットにCallistoが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -658,7 +658,7 @@
     "message": "トークンを送信"
   },
   "onlySendToEtherAddress": {
-    "message": "ETH はイーサリウムアカウントのみに送信できます。"
+    "message": "CLO はイーサリウムアカウントのみに送信できます。"
   },
   "onlySendTokensToAccountAddress": {
     "message": "$1 はイーサリアムアカウントのみに送信できます。",
@@ -719,7 +719,7 @@
     "message": "送信先"
   },
   "toETHviaShapeShift": {
-    "message": "ShapeShiftで $1をETHにする",
+    "message": "ShapeShiftで $1をCLOにする",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

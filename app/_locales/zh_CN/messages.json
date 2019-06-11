@@ -266,10 +266,10 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "存入 Eth"
+    "message": "存入 Clo"
   },
   "depositEther": {
-    "message": "存入 Ether"
+    "message": "存入 Callisto"
   },
   "depositFiat": {
     "message": "从 Fiat 存入"
@@ -281,7 +281,7 @@
     "message": "从 ShapeShift 存入"
   },
   "depositShapeShiftExplainer": {
-    "message": "如果你拥有其他加密货币，你可以直接交易并存入 Ether 到你的 Callisto Hub 钱包。 不需要帐户。"
+    "message": "如果你拥有其他加密货币，你可以直接交易并存入 Callisto 到你的 Callisto Hub 钱包。 不需要帐户。"
   },
   "details": {
     "message": "详情"
@@ -290,10 +290,10 @@
     "message": "直接存入"
   },
   "directDepositEther": {
-    "message": "直接存入 Ether"
+    "message": "直接存入 Callisto"
   },
   "directDepositEtherExplainer": {
-    "message": "如果你已经有了一些 Ether，通过直接转入是你的新钱包获取 Ether 的最快捷方式。"
+    "message": "如果你已经有了一些 Callisto，通过直接转入是你的新钱包获取 Callisto 的最快捷方式。"
   },
   "done": {
     "message": "完成"
@@ -401,11 +401,11 @@
     "message": "生成 交易"
   },
   "getEther": {
-    "message": "获取 Ether"
+    "message": "获取 Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "从水管获取$1网络的 Ether",
-    "description": "Displays network name for Ether faucet"
+    "message": "从水管获取$1网络的 Callisto",
+    "description": "Displays network name for Callisto faucet"
   },
   "greaterThanMin": {
     "message": "必须要大于等于 $1。",
@@ -428,10 +428,10 @@
     "message": "隐藏代币？"
   },
   "howToDeposit": {
-    "message": "你想怎样转入 Ether？"
+    "message": "你想怎样转入 Callisto？"
   },
   "holdEther": {
-    "message": "它允许你保存ether和代币，并作为你使用Dapp的桥梁."
+    "message": "它允许你保存Callisto和代币，并作为你使用Dapp的桥梁."
   },
   "import": {
     "message": "导入",
@@ -542,7 +542,7 @@
   "message": {
     "message": "消息"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub is a secure identity vault for Callisto Network."
   },
   "CLOSeedWords": {
@@ -558,7 +558,7 @@
     "message": "至少选择一种代币."
   },
   "needEtherInWallet": {
-    "message": "使用 Callisto Hub 与 DAPP 交互，需要你的钱包里有 Ether。"
+    "message": "使用 Callisto Hub 与 DAPP 交互，需要你的钱包里有 Callisto。"
   },
   "needImportFile": {
     "message": "必须选择导入一个文件。",
@@ -569,7 +569,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeETH": {
-    "message": "Can not send negative amounts of ETH."
+    "message": "Can not send negative amounts of CLO."
   },
   "networks": {
     "message": "网络"
@@ -889,7 +889,7 @@
     "message": "至"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH 通过 ShapeShift",
+    "message": "$1 CLO 通过 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {

@@ -155,7 +155,7 @@
     "message": "Vaša skrivna rezervna fraza omogoča preprosto varnostno kopiranje in obnovitev računa."
   },
   "backupPhraseWarning": {
-    "message": "OPOZORILO: Nikoli ne razkrijte varnostne fraze. Vsakdo s to frazo lahko vzame vaš Ether za vedno."
+    "message": "OPOZORILO: Nikoli ne razkrijte varnostne fraze. Vsakdo s to frazo lahko vzame vaš Callisto za vedno."
   },
   "backupPhraseTip1": {
     "message": "Shranite to frazo v upravitelja gesel, na primer 1Password."
@@ -413,10 +413,10 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "Vplačilo ETH"
+    "message": "Vplačilo CLO"
   },
   "depositEther": {
-    "message": "Vplačilo ethra"
+    "message": "Vplačilo Callisto"
   },
   "depositFiat": {
     "message": "Vplačilo s klasičnimi valutami"
@@ -428,7 +428,7 @@
     "message": "Vplačilo z ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Če imate druge kriptovalute, lahko Ether vplačate neposredno v Callisto Hub. Brez računov."
+    "message": "Če imate druge kriptovalute, lahko Callisto vplačate neposredno v Callisto Hub. Brez računov."
   },
   "details": {
     "message": "Podrobnosti"
@@ -440,7 +440,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate Ether, ga lahko najhitreje dobite v Callisto Hub z neposrednim vplačilom."
+    "message": "Če že imate Callisto, ga lahko najhitreje dobite v Callisto Hub z neposrednim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -590,11 +590,11 @@
     "message": "Ustvarjanje transakcije"
   },
   "getEther": {
-    "message": "Pridobi Ether"
+    "message": "Pridobi Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Pridobite Ether iz fauceta za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Pridobite Callisto iz fauceta za $1",
+    "description": "Displays network name for Callisto faucet"
   },
   "getHelp": {
     "message": "Get Help."
@@ -641,10 +641,10 @@
     "message": "Zgodovina"
   },
   "howToDeposit": {
-    "message": "Kako želite vplačati Ether?"
+    "message": "Kako želite vplačati Callisto?"
   },
   "holdEther": {
-    "message": "Omogoča vam shranjevanje ethra in žetonov ter povezovanje decentraliziranih aplikacij."
+    "message": "Omogoča vam shranjevanje Callisto in žetonov ter povezovanje decentraliziranih aplikacij."
   },
   "import": {
     "message": "Uvoz",
@@ -779,7 +779,7 @@
   "message": {
     "message": "Sporočilo"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "Callisto Hub je varen identitetni sklad za Callisto Network."
   },
   "CLOSeedWords": {
@@ -815,7 +815,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeETH": {
-    "message": "Negativnih zneskov ETH ni mogoče poslati."
+    "message": "Negativnih zneskov CLO ni mogoče poslati."
   },
   "networks": {
     "message": "Omrežja"
@@ -906,7 +906,7 @@
     "message": "Vrnili ste se v star uporabniški vmesnik. V novega se lahko vrnete z možnostjo v spustnem meniju v zgornjem desnem kotu."
   },
   "onlySendToEtherAddress": {
-    "message": "Na Callisto Network naslov pošljute samo ETH."
+    "message": "Na Callisto Network naslov pošljute samo CLO."
   },
   "onlySendTokensToAccountAddress": {
     "message": "Na Callisto Network naslov pošljute samo $1.",
@@ -983,7 +983,7 @@
     "message": "Glavna valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. ETH). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
+    "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. CLO). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
   },
   "privacyMsg": {
     "message": "Zasebnost"
@@ -1178,7 +1178,7 @@
     "message": "Pošlji žetone"
   },
   "sentEther": {
-    "message": "poslani ether"
+    "message": "poslani Callisto"
   },
   "sentTokens": {
     "message": "poslani žetoni"
@@ -1301,7 +1301,7 @@
     "message": "3. Začnite uporabljati dApps in več!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Uporabite strojno denarnico kot katerikoli drug Callisto Network račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
+    "message": "Uporabite strojno denarnico kot katerikoli drug Callisto Network račun. Prijavite se v dApps, pošljite Callisto in ERC20 žetone in žetone kot CryptoKitties."
   },
   "submit": {
     "message": "Potrdi"
@@ -1331,7 +1331,7 @@
     "message": "Za"
   },
   "toETHviaShapeShift": {
-    "message": "$1 v ETH prek ShapeShift",
+    "message": "$1 v CLO prek ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
