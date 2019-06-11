@@ -25,7 +25,7 @@ const MetamaskController = require('./metamask-controller')
 const rawFirstTimeState = require('./first-time-state')
 const setupSentry = require('./lib/setupSentry')
 const reportFailedTxToSentry = require('./lib/reportFailedTxToSentry')
-const setupMetamaskMeshMetrics = require('./lib/setupMetamaskMeshMetrics')
+// const setupMetamaskMeshMetrics = require('./lib/setupMetamaskMeshMetrics')
 const EdgeEncryptor = require('./edge-encryptor')
 const getFirstPreferredLangCode = require('./lib/get-first-preferred-lang-code')
 const getObjStructure = require('./lib/getObjStructure')
@@ -72,7 +72,7 @@ let versionedData
 initialize().catch(log.error)
 
 // setup metamask mesh testing container
-setupMetamaskMeshMetrics()
+// setupMetamaskMeshMetrics()
 
 
 /**
