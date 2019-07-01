@@ -5,19 +5,12 @@ const inherits = require('util').inherits
 const connect = require('react-redux').connect
 const actions = require('../../../store/actions')
 const { getNetworkDisplayName } = require('../../../../../app/scripts/controllers/network/util')
-const ShapeshiftForm = require('../shapeshift-form')
 
 import Button from '../../ui/button'
 
 let DIRECT_DEPOSIT_ROW_TITLE
 let DIRECT_DEPOSIT_ROW_TEXT
-let WYRE_ROW_TITLE
-let WYRE_ROW_TEXT
-let SHAPESHIFT_ROW_TITLE
-let SHAPESHIFT_ROW_TEXT
 let FAUCET_ROW_TITLE
-let COINSWITCH_ROW_TITLE
-let COINSWITCH_ROW_TEXT
 
 function mapStateToProps (state) {
   return {
@@ -54,13 +47,7 @@ function DepositEtherModal (props, context) {
   // need to set after i18n locale has loaded
   DIRECT_DEPOSIT_ROW_TITLE = context.t('directDepositEther')
   DIRECT_DEPOSIT_ROW_TEXT = context.t('directDepositEtherExplainer')
-  WYRE_ROW_TITLE = context.t('buyWithWyre')
-  WYRE_ROW_TEXT = context.t('buyWithWyreDescription')
-  SHAPESHIFT_ROW_TITLE = context.t('depositShapeShift')
-  SHAPESHIFT_ROW_TEXT = context.t('depositShapeShiftExplainer')
   FAUCET_ROW_TITLE = context.t('testFaucet')
-  COINSWITCH_ROW_TITLE = context.t('buyCoinSwitch')
-  COINSWITCH_ROW_TEXT = context.t('buyCoinSwitchExplainer')
 
   this.state = {
     buyingWithShapeshift: false,
@@ -180,7 +167,25 @@ DepositEtherModal.prototype.render = function () {
           hide: !isTestNetwork || buyingWithShapeshift,
         }),
 
-        buyingWithShapeshift && h(ShapeshiftForm),
+        this.renderRow({	
+          logo: h('img.deposit-ether-modal__logo', {
+            src: './images/mini-logo.svg',
+          }),
+          title: 'Buy CLO in Any of our supported exchanges',	
+          text: 'If you own other cryptocurrencies, you can trade and deposit Callisto directly into your Callisto Hub wallet',	
+          buttonLabel: 'Buy CLO',	
+          onButtonClick: (e) => {
+            e.stopPropagation();
+            const url = 'https://callisto.network/#exchanges';
+            global.platform.openWindow({ url });
+          },	
+          hide: isTestNetwork,	
+          hideButton: false,	
+          hideTitle: false,	
+          onBackClick: () => this.setState({ buyingWithShapeshift: false }),	
+          showBackButton: this.state.buyingWithShapeshift,	
+          className: buyingWithShapeshift && 'deposit-ether-modal__buy-row__shapeshift-buy',	
+        }),
 
       ]),
 
