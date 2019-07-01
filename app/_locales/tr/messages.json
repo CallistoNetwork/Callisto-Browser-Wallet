@@ -320,7 +320,7 @@
     "message": "Parolalar eşleşmiyor"
   },
   "etherscanView": {
-    "message": "Hesabı Etherscan üzerinde izle"
+    "message": "Hesabı CLO Explorer üzerinde izle"
   },
   "exchangeRate": {
     "message": "Döviz kuru"

@@ -407,7 +407,7 @@
     "message": "Entrez votre mot de passe pour continuer"
   },
   "etherscanView": {
-    "message": "Afficher le compte sur Etherscan"
+    "message": "Afficher le compte sur CLO Explorer"
   },
   "exchangeRate": {
     "message": "Taux de change"
@@ -1301,7 +1301,7 @@
     "message": "Afficher le compte"
   },
   "viewOnEtherscan": {
-    "message": "Voir sur Etherscan"
+    "message": "Voir sur CLO Explorer"
   },
   "visitWebSite": {
     "message": "Visitez notre site web"

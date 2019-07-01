@@ -317,7 +317,7 @@
     "message": "Passwörter stimmen nicht überein"
   },
   "etherscanView": {
-    "message": "Account auf Etherscan anschauen"
+    "message": "Account auf CLO Explorer anschauen"
   },
   "exchangeRate": {
     "message": "Wechselrate"

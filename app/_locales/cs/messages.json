@@ -320,7 +320,7 @@
     "message": "Hesla nejsou stejná"
   },
   "etherscanView": {
-    "message": "Prohlédněte si účet na Etherscan"
+    "message": "Prohlédněte si účet na CLO Explorer"
   },
   "exchangeRate": {
     "message": "Směnný kurz"

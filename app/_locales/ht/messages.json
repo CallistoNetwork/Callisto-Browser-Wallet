@@ -416,7 +416,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "Gade kont sou Etherscan"
+    "message": "Gade kont sou CLO Explorer"
   },
   "exchangeRate": {
     "message": "Chanje to"
@@ -1322,7 +1322,7 @@
     "message": "Wè Kont"
   },
   "viewOnEtherscan": {
-    "message": "Wè sou Etherscan"
+    "message": "Wè sou CLO Explorer"
   },
   "visitWebSite": {
     "message": "Vizite sit entènèt nou an"

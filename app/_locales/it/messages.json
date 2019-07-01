@@ -467,7 +467,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "Vedi account su Etherscan"
+    "message": "Vedi account su CLO Explorer"
   },
   "estimatedProcessingTimes": {
     "message": "Tempi di Elaborazione Stimati"
@@ -1526,7 +1526,7 @@
     "message": "Vedi Account"
   },
   "viewOnEtherscan": {
-    "message": "Vedi su Etherscan"
+    "message": "Vedi su CLO Explorer"
   },
   "visitWebSite": {
     "message": "Visita il nostro sito web"

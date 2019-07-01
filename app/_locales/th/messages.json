@@ -299,7 +299,7 @@
     "message": "ใส่รหัสผ่านอีกครั้งเพื่อยืนยัน"
   },
   "etherscanView": {
-    "message": "ดูบัญชีบน Etherscan"
+    "message": "ดูบัญชีบน CLO Explorer"
   },
   "exchangeRate": {
     "message": "อัตราแลกเปลี่ยน"

@@ -335,7 +335,7 @@
     "message": "Hasła są niezgodne"
   },
   "etherscanView": {
-    "message": "Zobacz konto na Etherscan"
+    "message": "Zobacz konto na CLO Explorer"
   },
   "exchangeRate": {
     "message": "Kurs wymiany"
@@ -1190,7 +1190,7 @@
     "message": "Zobacz konto"
   },
   "viewOnEtherscan": {
-    "message": "Zobacz na Etherscan"
+    "message": "Zobacz na CLO Explorer"
   },
   "visitWebSite": {
     "message": "Odwiedź naszą stronę"

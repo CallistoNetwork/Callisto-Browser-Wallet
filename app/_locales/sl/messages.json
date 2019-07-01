@@ -488,7 +488,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "Poglej račun na Etherscan"
+    "message": "Poglej račun na CLO Explorer"
   },
   "estimatedProcessingTimes": {
     "message": "Predviden čas obdelave"
@@ -1517,7 +1517,7 @@
     "message": "Poglej račun"
   },
   "viewOnEtherscan": {
-    "message": "Poglej na Etherscan"
+    "message": "Poglej na CLO Explorer"
   },
   "visitWebSite": {
     "message": "Obiščite našo spletno stran"

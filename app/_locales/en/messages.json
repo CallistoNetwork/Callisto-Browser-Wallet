@@ -126,7 +126,7 @@
     "message": "Amount + TX Fee"
   },
   "appDescription": {
-    "message": "An Callisto Wallet in your Browser",
+    "message": "A Callisto Wallet in your Browser",
     "description": "The description of the application"
   },
   "appName": {
@@ -548,7 +548,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "View account on Etherscan"
+    "message": "View account on CLO Explorer"
   },
   "estimatedProcessingTimes": {
     "message": "Estimated Processing Times"
@@ -1709,7 +1709,7 @@
     "message": "View Account"
   },
   "viewOnEtherscan": {
-    "message": "View on Etherscan"
+    "message": "View on CLO Explorer"
   },
   "visitWebSite": {
     "message": "Visit our web site"

@@ -39,7 +39,7 @@ describe('TransactionActivityLog Component', () => {
         className="test-class"
         inlineRetryIndex={-1}
         inlineCancelIndex={-1}
-        nativeCurrency="ETH"
+        nativeCurrency="CLO"
         onCancel={() => {}}
         onRetry={() => {}}
         primaryTransactionStatus="confirmed"
