@@ -322,7 +322,7 @@ function createTasksForBuildJsUIDeps ({ dependenciesToBundle, filename }) {
   const bundleTaskOpts = Object.assign({
     buildSourceMaps: true,
     sourceMapDir: '../sourcemaps',
-    minifyBuild: true,
+    minifyBuild: false,
     devMode: false,
   })
 
