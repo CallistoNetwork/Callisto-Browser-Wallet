@@ -12,7 +12,7 @@
     "message": "Expose accounts to the current website. Useful for legacy dapps."
   },
   "chartOnlyAvailableEth": {
-    "message": "Chart only available on Ethereum networks."
+    "message": "Chart only available on Callisto Network networks."
   },
   "confirmExpose": {
     "message": "Are you sure you want to expose your accounts to the current website?"
@@ -105,7 +105,7 @@
     "message": "Add Suggested Tokens"
   },
   "addAcquiredTokens": {
-    "message": "Add the tokens you've acquired using MetaMask"
+    "message": "Add the tokens you've acquired using Callisto Hub"
   },
   "agreeTermsOfService": {
     "message": "I agree to the Terms of Service"
@@ -126,11 +126,11 @@
     "message": "Amount + TX Fee"
   },
   "appDescription": {
-    "message": "An Ethereum Wallet in your Browser",
+    "message": "A Callisto Wallet in your Browser",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Callisto Hub",
     "description": "The name of the application"
   },
   "approve": {
@@ -195,7 +195,7 @@
     "message": "Your Browser is not supported..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask is designed and built in California."
+    "message": "Callisto Hub is designed and built in California."
   },
   "buy": {
     "message": "Buy"
@@ -204,13 +204,13 @@
     "message": "Buy on Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Ethereum, and Litecoin."
+    "message": "Coinbase is the world’s most popular way to buy and sell Bitcoin, Callisto Network, and Litecoin."
   },
   "buyWithWyre": {
-    "message": "Buy ETH with Wyre"
+    "message": "Buy CLO with Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lets you use a credit card to deposit ETH right in to your MetaMask account."
+    "message": "Wyre lets you use a credit card to deposit CLO right in to your Callisto Hub account."
   },
   "buyCoinSwitch": {
     "message": "Buy on CoinSwitch"
@@ -255,7 +255,7 @@
     "message": "Close"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "You need to use MetaMask on Google Chrome in order to connect to your Hardware Wallet."
+    "message": "You need to use Callisto Hub on Google Chrome in order to connect to your Hardware Wallet."
   },
   "company": {
     "message": "Company"
@@ -303,7 +303,7 @@
     "message": "Connecting to Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Main Ethereum Network"
+    "message": "Connecting to Main Callisto Network Network"
   },
   "connectingToRopsten": {
     "message": "Connecting to Ropsten Test Network"
@@ -430,10 +430,10 @@
     "message": "Decimals of Precision"
   },
   "defaultNetwork": {
-    "message": "The default network for Ether transactions is Main Net."
+    "message": "The default network for Callisto transactions is Main Net."
   },
   "denExplainer": {
-    "message": "Your DEN is your password-encrypted storage within MetaMask."
+    "message": "Your DEN is your password-encrypted storage within Callisto Hub."
   },
   "deposit": {
     "message": "Deposit"
@@ -446,10 +446,10 @@
     "description": "Tells the user what coin they have selected to deposit with shapeshift"
   },
   "depositEth": {
-    "message": "Deposit Eth"
+    "message": "Deposit CLO"
   },
   "depositEther": {
-    "message": "Deposit Ether"
+    "message": "Deposit Callisto"
   },
   "depositFiat": {
     "message": "Deposit with Fiat"
@@ -461,7 +461,7 @@
     "message": "Deposit with ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "If you own other cryptocurrencies, you can trade and deposit Ether directly into your MetaMask wallet. No Account Needed."
+    "message": "If you own other cryptocurrencies, you can trade and deposit Callisto directly into your Callisto Hub wallet. No Account Needed."
   },
   "details": {
     "message": "Details"
@@ -470,10 +470,10 @@
     "message": "Direct Deposit"
   },
   "directDepositEther": {
-    "message": "Directly Deposit Ether"
+    "message": "Directly Deposit Callisto"
   },
   "directDepositEtherExplainer": {
-    "message": "If you already have some Ether, the quickest way to get Ether in your new wallet by direct deposit."
+    "message": "If you already have some Callisto, the quickest way to get Callisto in your new wallet by direct deposit."
   },
   "done": {
     "message": "Done"
@@ -521,16 +521,16 @@
     "message": "Never share the phrase with anyone."
   },
   "endOfFlowMessage5": {
-    "message": "Be careful of phishing! MetaMask will never spontaneously ask for your seed phrase."
+    "message": "Be careful of phishing! Callisto Hub will never spontaneously ask for your seed phrase."
   },
   "endOfFlowMessage6": {
     "message": "If you need to back your up seed phrase again, you can find it in Settings -> Security."
   },
   "endOfFlowMessage7": {
-    "message": "If you ever have questions or see something fishy, email support@metamask.io."
+    "message": "If you ever have questions or see something fishy, email support@callistohub.io"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask cannot recover your seedphrase. Learn more."
+    "message": "Callisto Hub cannot recover your seedphrase. Learn more."
   },
   "ensNameNotFound": {
     "message": "ENS name not found"
@@ -548,7 +548,7 @@
     "message": "ETH"
   },
   "etherscanView": {
-    "message": "View account on Etherscan"
+    "message": "View account on CLO Explorer"
   },
   "estimatedProcessingTimes": {
     "message": "Estimated Processing Times"
@@ -641,7 +641,7 @@
     "message": "Gas Price Extremely Low"
   },
   "gasPriceInfoModalContent": {
-    "message": "Gas price specifies the amount of Ether you are willing to pay for each unit of gas."
+    "message": "Gas price specifies the amount of Callisto you are willing to pay for each unit of gas."
   },
   "gasPriceNoDenom": {
     "message": "Gas Price"
@@ -662,11 +662,11 @@
     "message": "Generating transaction"
   },
   "getEther": {
-    "message": "Get Ether"
+    "message": "Get Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Get Ether from a faucet for the $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Get Callisto from a faucet for the $1",
+    "description": "Displays network name for Callisto faucet"
   },
   "getHelp": {
     "message": "Get Help."
@@ -691,7 +691,7 @@
     "message": "Connect a hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "Select a hardware wallet you'd like to use with MetaMask"
+    "message": "Select a hardware wallet you'd like to use with Callisto Hub"
   },
   "havingTroubleConnecting": {
     "message": "Having trouble connecting?"
@@ -719,10 +719,10 @@
     "message": "History"
   },
   "howToDeposit": {
-    "message": "How would you like to deposit Ether?"
+    "message": "How would you like to deposit Callisto?"
   },
   "holdEther": {
-    "message": "It allows you to hold ether & tokens, and serves as your bridge to decentralized applications."
+    "message": "It allows you to hold Callisto & tokens, and serves as your bridge to decentralized applications."
   },
   "import": {
     "message": "Import",
@@ -732,7 +732,7 @@
     "message": "Import Account"
   },
   "importAccountMsg": {
-    "message": " Imported accounts will not be associated with your originally created MetaMask account seedphrase. Learn more about imported accounts "
+    "message": " Imported accounts will not be associated with your originally created Callisto Hub account seedphrase. Learn more about imported accounts "
   },
   "importAccountSeedPhrase": {
     "message": "Import an Account with Seed Phrase"
@@ -787,7 +787,7 @@
     "message": "Known contract address."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Not ETH network, set to lowercase"
+    "message": "Not CLO network, set to lowercase"
   },
   "invalidGasParams": {
     "message": "Invalid Gas Parameters"
@@ -812,7 +812,7 @@
     "description": "format for importing an account"
   },
   "keepTrackTokens": {
-    "message": "Keep track of the tokens you’ve bought with your MetaMask account."
+    "message": "Keep track of the tokens you’ve bought with your Callisto Hub account."
   },
   "kovan": {
     "message": "Kovan Test Network"
@@ -873,7 +873,7 @@
     "message": "seed words only have lowercase characters"
   },
   "mainnet": {
-    "message": "Main Ethereum Network"
+    "message": "Main CLO Network"
   },
   "memorizePhrase": {
     "message": "Memorize this phrase."
@@ -884,14 +884,14 @@
   "message": {
     "message": "Message"
   },
-  "metamaskDescription": {
-    "message": "Connecting you to Ethereum and the Decentralized Web."
+  "callistoHubDescription": {
+    "message": "Connecting you to Callisto Network and the Decentralized Web."
   },
-  "metamaskSeedWords": {
-    "message": "MetaMask Seed Words"
+  "CLOSeedWords": {
+    "message": "Callisto Hub Seed Words"
   },
-  "metamaskVersion": {
-    "message": "MetaMask Version"
+  "CallistoHubVersion": {
+    "message": "Callisto Hub Version"
   },
   "min": {
     "message": "Minimum"
@@ -915,7 +915,7 @@
     "message": "Must select at least 1 token."
   },
   "needEtherInWallet": {
-    "message": "To interact with decentralized applications using MetaMask, you’ll need Ether in your wallet."
+    "message": "To interact with decentralized applications using Callisto Hub, you’ll need Callisto in your wallet."
   },
   "needImportFile": {
     "message": "You must select a file to import.",
@@ -926,7 +926,7 @@
     "description": "Password and file needed to import an account"
   },
   "negativeETH": {
-    "message": "Can not send negative amounts of ETH."
+    "message": "Can not send negative amounts of CLO."
   },
   "networks": {
     "message": "Networks"
@@ -956,8 +956,8 @@
   "newNetwork": {
     "message": "New Network"
   },
-  "newToMetaMask": {
-    "message": "New to MetaMask?"
+  "newToCallistoHub": {
+    "message": "New to Callisto Hub?"
   },
   "noAlreadyHaveSeed": {
     "message": "No, I already have a seed phrase"
@@ -966,10 +966,10 @@
     "message": "Protect Your Keys!"
   },
   "protectYourKeysMessage1": {
-    "message": "Be careful with your seed phrase — there have been reports of websites that attempt to imitate MetaMask. MetaMask will never ask for your seed phrase!"
+    "message": "Be careful with your seed phrase — there have been reports of websites that attempt to imitate Callisto Hub. Callisto Hub will never ask for your seed phrase!"
   },
   "protectYourKeysMessage2": {
-    "message": "Keep your phrase safe. If you see something fishy, or you’re uncertain about a website, email support@metamask.io"
+    "message": "Keep your phrase safe. If you see something fishy, or you’re uncertain about a website, email support@Callisto Hub.io"
   },
   "rpcURL": {
     "message": "New RPC URL"
@@ -1038,10 +1038,10 @@
     "message": "You have returned to the old UI. You can switch back to the New UI through the option in the top right dropdown menu."
   },
   "onlySendToEtherAddress": {
-    "message": "Only send ETH to an Ethereum address."
+    "message": "Only send CLO to an Callisto Network address."
   },
   "onlySendTokensToAccountAddress": {
-    "message": "Only send $1 to an Ethereum account address.",
+    "message": "Only send $1 to an Callisto Network account address.",
     "description": "displays token symbol"
   },
   "openInTab": {
@@ -1070,7 +1070,7 @@
     "message": "Participate in MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participate in MetaMetrics to help us make MetaMask better"
+    "message": "Participate in MetaMetrics to help us make Callisto Hub better"
   },
   "password": {
     "message": "Password"
@@ -1118,7 +1118,7 @@
     "message": "Primary Currency"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency."
+    "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. CLO). Select Fiat to prioritize displaying values in your selected fiat currency."
   },
   "privacyMsg": {
     "message": "Privacy Policy"
@@ -1283,7 +1283,7 @@
     "message": "Your secret backup phrase makes it easy to back up and restore your account."
   },
   "secretBackupPhraseWarning": {
-    "message": "WARNING: Never disclose your backup phrase. Anyone with this phrase can take your Ether forever."
+    "message": "WARNING: Never disclose your backup phrase. Anyone with this phrase can take your Callisto forever."
   },
   "secretPhrase": {
     "message": "Enter your secret twelve word phrase here to restore your vault."
@@ -1328,13 +1328,13 @@
     "message": "Send Amount"
   },
   "sendETH": {
-    "message": "Send ETH"
+    "message": "Send CLO"
   },
   "sendTokens": {
     "message": "Send Tokens"
   },
   "sentEther": {
-    "message": "sent ether"
+    "message": "sent CLO"
   },
   "sentTokens": {
     "message": "sent tokens"
@@ -1352,7 +1352,7 @@
     "message": "Select an Account"
   },
   "selectAnAccountHelp": {
-    "message": "Select the account to view in MetaMask"
+    "message": "Select the account to view in Callisto Hub"
   },
   "selectAnAsset": {
     "message": "Select an Asset"
@@ -1367,7 +1367,7 @@
     "message": "If you don't see your existing Ledger accounts below, try switching paths to \"Legacy (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Send Tokens to anyone with an Ethereum account"
+    "message": "Send Tokens to anyone with an Callisto Network account"
   },
   "settings": {
     "message": "Settings"
@@ -1472,7 +1472,7 @@
     "message": "3. Start using dApps and more!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use your hardware account like you would with any Ethereum account. Log in to dApps, send Eth, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
+    "message": "Use your hardware account like you would with any Callisto Network account. Log in to dApps, send CLO, buy and store ERC20 tokens and Non-Fungible tokens like CryptoKitties."
   },
   "storePhrase": {
     "message": "Store this phrase in a password manager like 1Password."
@@ -1496,19 +1496,19 @@
     "message": "Sync with mobile"
   },
   "syncWithMobileDesc": {
-    "message": "You can sync your accounts and information with your mobile device. Open the MetaMask mobile app, go to \"Settings\" and tap on \"Sync from Browser Extension\""
+    "message": "You can sync your accounts and information with your mobile device. Open the Callisto Hub mobile app, go to \"Settings\" and tap on \"Sync from Browser Extension\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "If you just open the MetaMask Mobile app for the first time, just follow the steps in your phone."
+    "message": "If you just open the Callisto Hub Mobile app for the first time, just follow the steps in your phone."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scan this code with your MetaMask mobile app"
+    "message": "Scan this code with your Callisto Hub mobile app"
   },
   "syncWithMobileBeCareful": {
     "message": "Make sure nobody else is looking at your screen when you scan this code"
   },
   "syncWithMobileComplete": {
-    "message": "Your data has been synced succesfully. Enjoy the MetaMask mobile app!"
+    "message": "Your data has been synced succesfully. Enjoy the Callisto Hub mobile app!"
   },
   "takesTooLong": {
     "message": "Taking too long?"
@@ -1529,7 +1529,7 @@
     "message": "To"
   },
   "toETHviaShapeShift": {
-    "message": "$1 to ETH via ShapeShift",
+    "message": "$1 to CLO via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1554,7 +1554,7 @@
     "message": "Token Symbol"
   },
   "tokenWarning1": {
-    "message": "Keep track of the tokens you’ve bought with your MetaMask account. If you bought tokens using a different account, those tokens will not appear here."
+    "message": "Keep track of the tokens you’ve bought with your Callisto Hub account. If you bought tokens using a different account, those tokens will not appear here."
   },
   "total": {
     "message": "Total"
@@ -1636,19 +1636,19 @@
     "message": "Try again"
   },
   "twelveWords": {
-    "message": "These 12 words are the only way to restore your MetaMask accounts.\nSave them somewhere safe and secret."
+    "message": "These 12 words are the only way to restore your Callisto Hub accounts.\nSave them somewhere safe and secret."
   },
   "typePassword": {
-    "message": "Type your MetaMask password"
+    "message": "Type your Callisto Hub password"
   },
   "uiMigrationAnnouncement": {
-    "message": "Welcome to the new MetaMask UI. If you have feedback about the UI or feature requests, please reach out to our support team or on GitHub."
+    "message": "Welcome to the new Callisto Hub UI. If you have feedback about the UI or feature requests, please reach out to our support team or on GitHub."
   },
   "uiWelcome": {
     "message": "Welcome to the New UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "You are now using the new MetaMask UI."
+    "message": "You are now using the new Callisto Hub UI."
   },
   "unapproved": {
     "message": "Unapproved"
@@ -1709,7 +1709,7 @@
     "message": "View Account"
   },
   "viewOnEtherscan": {
-    "message": "View on Etherscan"
+    "message": "View on CLO Explorer"
   },
   "visitWebSite": {
     "message": "Visit our web site"
@@ -1724,7 +1724,7 @@
     "message": "Welcome Back!"
   },
   "welcome": {
-    "message": "Welcome to MetaMask"
+    "message": "Welcome to Callisto Hub"
   },
   "whatsThis": {
     "message": "What's this?"
@@ -1757,7 +1757,7 @@
     "message": "You’ll see this image everytime you need to confirm a transaction."
   },
   "yourUniqueAccountImageDescription3": {
-    "message": "MetaMask will never ask for your seed phrase!"
+    "message": "Callisto Hub will never ask for your seed phrase!"
   },
   "zeroGasPriceOnSpeedUpError": {
     "message":"Zero gas price on speed up"

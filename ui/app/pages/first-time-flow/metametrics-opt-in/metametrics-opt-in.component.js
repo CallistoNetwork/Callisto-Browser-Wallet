@@ -31,12 +31,12 @@ export default class MetaMetricsOptIn extends Component {
           <div className="app-header__logo-container">
             <img
               className="app-header__metafox-logo app-header__metafox-logo--horizontal"
-              src="/images/logo/metamask-logo-horizontal.svg"
+              src="/images/logo/clo-logo.svg"
               height={30}
             />
             <img
               className="app-header__metafox-logo app-header__metafox-logo--icon"
-              src="/images/logo/metamask-fox.svg"
+              src="/images/logo/single-logo.svg"
               height={42}
               width={42}
             />
@@ -44,11 +44,11 @@ export default class MetaMetricsOptIn extends Component {
           <div className="metametrics-opt-in__body-graphic">
             <img src="images/metrics-chart.svg" />
           </div>
-          <div className="metametrics-opt-in__title">Help Us Improve MetaMask</div>
+          <div className="metametrics-opt-in__title">Help Us Improve Callisto Hub</div>
           <div className="metametrics-opt-in__body">
             <div className="metametrics-opt-in__description">
-             MetaMask would like to gather usage data to better understand how our users interact with the extension. This data
-             will be used to continually improve the usability and user experience of our product and the Ethereum ecosystem.
+            Callisto Hub would like to gather usage data to better understand how our users interact with the extension. This data
+             will be used to continually improve the usability and user experience of our product and the Callisto Network ecosystem.
             </div>
             <div className="metametrics-opt-in__description">
              MetaMask will..

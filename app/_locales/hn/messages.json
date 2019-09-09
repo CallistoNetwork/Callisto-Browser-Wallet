@@ -79,7 +79,7 @@
     "description": "आवेदन का विवरण"
   },
   "appName": {
-    "message": "मेटामास्क/MetaMask",
+    "message": "मेटामास्क/Callisto Hub",
     "description": "एप्लिकेशन का नाम"
   },
   "attemptingConnect": {
@@ -245,10 +245,10 @@
     "description": "उपयोगकर्ता को बताता है कि उन्होंने सिक्का के साथ जमा करने के लिए किस सिक्का का चयन किया है"
   },
   "depositEth": {
-    "message": "Eth जमाआर्थ"
+    "message": "CLO जमाआर्थ"
   },
   "depositEther": {
-    "message": "जमा - Ether"
+    "message": "जमा - Callisto"
   },
   "depositFiat": {
     "message": "फिएट के साथ जमा हो"
@@ -494,7 +494,7 @@
   "message": {
     "message": "संदेश"
   },
-  "metamaskDescription": {
+  "callistoHubDescription": {
     "message": "मेटामास्क इथीरियम के लिए एक सुरक्षित पहचान वॉल्ट है।"
   },
   "min": {
@@ -697,7 +697,7 @@
     "message": "भेजें"
   },
   "sendETH": {
-    "message": "भेजें ETH"
+    "message": "भेजें CLO"
   },
   "sendTokens": {
     "message": "भेजें टोकन"
@@ -766,7 +766,7 @@
     "message": "के लिए"
   },
   "toETHviaShapeShift": {
-    "message": "शैपशैफ्ट द्वारा $1 से ETH में जमा",
+    "message": "शैपशैफ्ट द्वारा $1 से CLO में जमा",
     "description": "संदेश की शुरुआत में जमा प्रकार भर जाएगा"
   },
   "tokenAddress": {

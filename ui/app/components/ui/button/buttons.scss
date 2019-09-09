@@ -2,7 +2,7 @@
   Buttons
  */
 
-$hover-secondary: #B0D7F2;
+$hover-secondary: #c0f5df;
 $hover-default: #B3B3B3;
 $hover-confirm: #0372C3;
 $hover-red: #FEB6BF;
@@ -36,17 +36,17 @@ $hover-orange: #FFD3B5;
 %link {
   @include h4;
 
-  color: $Blue-500;
+  color: $clo-green;
   line-height: 1.25rem;
   cursor: pointer;
   background-color: transparent;
 
   &:hover {
-    color: $Blue-400;
+    color: $clo-green;
   }
 
   &:active {
-    color: $Blue-600;
+    color: $clo-green;
   }
 
   &--disabled,
@@ -68,17 +68,17 @@ $hover-orange: #FFD3B5;
 }
 
 .btn-secondary {
-  color: $Blue-500;
-  border: 2px solid $hover-secondary;
+  color: $clo-green;
+  border: 2px solid $clo-green;
   background-color: $white;
 
   &:hover {
-    border-color: $Blue-500;
+    border-color: $clo-green;
   }
 
   &:active {
     background: $Blue-000;
-    border-color: $Blue-500;
+    border-color: $clo-green;
   }
 
   &--disabled,
@@ -175,23 +175,23 @@ $hover-orange: #FFD3B5;
 
 .btn-primary {
   color: $white;
-  border: 2px solid $Blue-500;
-  background-color: $Blue-500;
+  border: 2px solid $clo-green;
+  background-color: $clo-green;
 
   &:hover {
-    border-color: $hover-confirm;
-    background-color: $hover-confirm;
+    border-color: $clo-green;
+    background-color: $clo-green;
   }
 
   &:active {
-    background: $Blue-600;
-    border-color: $Blue-600;
+    background: $clo-green;
+    border-color: $clo-green;
   }
 
   &--disabled,
   &[disabled] {
-    border-color: $hover-secondary;
-    background-color: $hover-secondary;
+    border-color: $clo-green;
+    background-color: $clo-green;
   }
 }
 
@@ -208,7 +208,7 @@ $hover-orange: #FFD3B5;
  */
 
 .btn-raised {
-  color: $curious-blue;
+  color: $clo-green;
   background-color: $white;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
   padding: 6px;
@@ -238,8 +238,8 @@ input[type="submit"][disabled] {
 
 button.primary {
   padding: 8px 12px;
-  background: #f7861c;
-  box-shadow: 0 3px 6px rgba(247, 134, 28, .36);
+  background: #34c88a;
+  box-shadow: .5em .5em 10px 0px rgba(226, 226, 226, 0.58);
   color: $white;
   font-size: 1.1em;
   font-family: Roboto;

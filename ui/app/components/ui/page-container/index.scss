@@ -75,7 +75,7 @@
         cursor: pointer;
         font-size: 0.75rem;
         text-transform: uppercase;
-        color: #2f9ae0;
+        color: #34c88a;
       }
     }
   }
@@ -89,7 +89,7 @@
   }
 
   &__back-button {
-    color: #2f9ae0;
+    color: #34c88a;
     font-size: 1rem;
     cursor: pointer;
     font-weight: 400;
@@ -131,8 +131,8 @@
     }
 
     &--selected {
-      color: $curious-blue;
-      border-bottom: 2px solid $curious-blue;
+      color: $clo-green;
+      border-bottom: 2px solid $clo-green;
     }
   }
 

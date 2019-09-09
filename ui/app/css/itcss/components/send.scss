@@ -150,7 +150,7 @@
 
 .currency-toggle {
   &__item {
-    color: $curious-blue;
+    color: $clo-green;
     cursor: pointer;
 
     &--selected {
@@ -161,7 +161,7 @@
 }
 
 .send-screen-gas-input-customize {
-  color: $curious-blue;
+  color: $clo-green;
   font-size: 12px;
   cursor: pointer;
 }
@@ -781,7 +781,7 @@
   }
 
   &__amount-max {
-    color: $curious-blue;
+    color: $clo-green;
     font-family: Roboto;
     font-size: 12px;
     left: 8px;
@@ -807,7 +807,7 @@
     justify-content: center;
     height: 24px;
     width: 24px;
-    border: 1px solid $curious-blue;
+    border: 1px solid $clo-green;
     border-radius: 4px;
     background-color: $white;
     position: absolute;
@@ -818,7 +818,7 @@
   }
 
   &__sliders-icon {
-    color: $curious-blue;
+    color: $clo-green;
   }
 
   &__memo-text-area {
@@ -1039,7 +1039,7 @@
   display: flex;
   justify-content: flex-end;
   font-size: 14px;
-  color: #2f9ae0;
+  color: #34c88a;
   cursor: pointer;
   margin-top: 16px;
 }
@@ -1050,7 +1050,7 @@
   justify-content: center;
   height: 24px;
   width: 24px;
-  border: 1px solid $curious-blue;
+  border: 1px solid $clo-green;
   border-radius: 4px;
   background-color: $white;
   position: absolute;
@@ -1073,10 +1073,10 @@
   cursor: pointer;
   font-size: 1em;
   font-size: 14px;
-  color: #2f9ae0;
+  color: #34c88a;
   font-family: Roboto;
 }
 
 .sliders-icon {
-  color: $curious-blue;
+  color: $clo-green;
 }

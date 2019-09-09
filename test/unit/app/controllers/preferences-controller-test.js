@@ -542,4 +542,3 @@ describe('preferences controller', function () {
     })
   })
 })
-

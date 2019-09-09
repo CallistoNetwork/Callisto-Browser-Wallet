@@ -39,10 +39,10 @@
     "message": "Kahilingan sa Web3 API"
   },
   "reviewProviderRequest": {
-    "message": "Mangyaring suriin ang kahilingan sa Ethereum API na ito."
+    "message": "Mangyaring suriin ang kahilingan sa Callisto Network API na ito."
   },
   "providerRequestInfo": {
-    "message": "Ang domain na nakalista sa ibaba ay sinusubukang humiling ng access sa Ethereum API upang maaari itong makipag-ugnayan sa Ethereum blockchain. Laging i-double check na ikaw ay nasa tamang site bago aprubahan ang Ethereum access."
+    "message": "Ang domain na nakalista sa ibaba ay sinusubukang humiling ng access sa Callisto Network API upang maaari itong makipag-ugnayan sa Callisto Network blockchain. Laging i-double check na ikaw ay nasa tamang site bago aprubahan ang Callisto Network access."
   },
   "accept": {
     "message": "Tanggapin"
@@ -69,11 +69,11 @@
     "message": "Halaga + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Callisto Browser Extension",
     "description": "Ang deskripsyon ng application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Callisto Hub",
     "description": "Ang pangalan ng application"
   },
   "attemptingConnect": {
@@ -108,7 +108,7 @@
     "message": "Bumili sa Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Ang Coinbase ang pinakasikat na paraan upang bumili at magbenta ng Bitcoin, Ethereum, at Litecoin sa buong mundo."
+    "message": "Ang Coinbase ang pinakasikat na paraan upang bumili at magbenta ng Bitcoin, Callisto Network, at Litecoin sa buong mundo."
   },
   "buyCoinSwitch": {
     "message": "Bumili sa CoinSwitch"
@@ -190,10 +190,10 @@
     "message": "Custom RPC"
   },
   "defaultNetwork": {
-    "message": "Ang default network para sa Ether transactions ay ang Main Net."
+    "message": "Ang default network para sa Callisto transactions ay ang Main Net."
   },
   "denExplainer": {
-    "message": "Ang iyong DEN ang nagsisilbing password-encrypted storage mo sa loob ng MetaMask."
+    "message": "Ang iyong DEN ang nagsisilbing password-encrypted storage mo sa loob ng Callisto Hub."
   },
   "deposit": {
     "message": "Deposito"
@@ -206,10 +206,10 @@
     "description": "Sinasabihan ang user kung ano ang coin na kanilang pinili para I-deposito gamit ang shapeshift"
   },
   "depositEth": {
-    "message": "I-deposito ang Eth"
+    "message": "I-deposito ang CLO"
   },
   "depositEther": {
-    "message": "I-deposito ang Ether"
+    "message": "I-deposito ang Callisto"
   },
   "depositFiat": {
     "message": "I-deposito ang Fiat"
@@ -221,7 +221,7 @@
     "message": "I-deposito gamit ang ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Kung ikaw ay nagmamay-ari ng iba pang cryptocurrencies, pwede kang mag-trade at mag-deposito ng Ether diretso sa iyong MetaMask wallet. Hindi mo na kailangan ng account."
+    "message": "Kung ikaw ay nagmamay-ari ng iba pang cryptocurrencies, pwede kang mag-trade at mag-deposito ng Callisto diretso sa iyong Callisto Hub wallet. Hindi mo na kailangan ng account."
   },
   "details": {
     "message": "Detalye"
@@ -230,10 +230,10 @@
     "message": "Direktang Deposito"
   },
   "directDepositEther": {
-    "message": "Direktang I-deposito ang Ether"
+    "message": "Direktang I-deposito ang Callisto"
   },
   "directDepositEtherExplainer": {
-    "message": "Kung ika ay mayroon nang Ether, ang pinakamabilis na paraan upang makuha ang Ether sa iyong bagong wallet ay sa pamamagitan ng direktang deposito."
+    "message": "Kung ika ay mayroon nang Callisto, ang pinakamabilis na paraan upang makuha ang Callisto sa iyong bagong wallet ay sa pamamagitan ng direktang deposito."
   },
   "done": {
     "message": "Tapos na"
@@ -251,7 +251,7 @@
     "message": "I-enter ang password"
   },
   "etherscanView": {
-    "message": "Tingnan ang account sa Etherscan"
+    "message": "Tingnan ang account sa CLO Explorer"
   },
   "exchangeRate": {
     "message": "Exchange Rate"
@@ -308,11 +308,11 @@
     "message": "Kailangan ang Gas Price"
   },
   "getEther": {
-    "message": "Kumuha ng Ether"
+    "message": "Kumuha ng Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Kumuha ng Ether mula sa faucet para sa $1",
-    "description": "Ipinapakita ang pangalan ng network para sa Ether faucet"
+    "message": "Kumuha ng Callisto mula sa faucet para sa $1",
+    "description": "Ipinapakita ang pangalan ng network para sa Callisto faucet"
   },
   "greaterThanMin": {
     "message": "dapat mas malaki o katumbas ng $1.",
@@ -332,7 +332,7 @@
     "message": "Itago ang Token?"
   },
   "howToDeposit": {
-    "message": "Paano mo gustong mag-deposito ng Ether?"
+    "message": "Paano mo gustong mag-deposito ng Callisto?"
   },
   "import": {
     "message": "I-import",
@@ -396,7 +396,7 @@
     "message": "Loose"
   },
   "mainnet": {
-    "message": "Main Ethereum Network"
+    "message": "Main CLO Network"
   },
   "message": {
     "message": "Mensahe"
@@ -408,7 +408,7 @@
     "message": "Aking mga Account"
   },
   "needEtherInWallet": {
-    "message": "Upang makipag-ugnayan sa decentralized applications gamit ang MetaMask, kakailanganin mo ng Ether sa iyong wallet."
+    "message": "Upang makipag-ugnayan sa decentralized applications gamit ang Callisto Hub, kakailanganin mo ng Callisto sa iyong wallet."
   },
   "needImportFile": {
     "message": "Dapat kang pumili ng file para i-import.",
@@ -550,7 +550,7 @@
     "message": "Magpadala ng Tokens"
   },
   "sendTokensAnywhere": {
-    "message": "Magpadala ng Tokens sa sinumang may Ethereum account"
+    "message": "Magpadala ng Tokens sa sinumang may Callisto Network account"
   },
   "settings": {
     "message": "Mga Setting"
@@ -595,7 +595,7 @@
     "message": "To"
   },
   "toETHviaShapeShift": {
-    "message": "$1 sa ETH sa pamamagitan ng ShapeShift",
+    "message": "$1 sa CLO sa pamamagitan ng ShapeShift",
     "description": "Pupunan ng system ang deposit type sa simula ng mensahe"
   },
   "tokenBalance": {
@@ -624,7 +624,7 @@
     "message": "Maligayang pagdating sa Bagong UI (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Ginagamit mo na ngayon ang bagong MetaMask UI. I-explore at subukan ang mga bagong features tulad ng pagpapadala ng mga token, at ipaalam sa amin kung mayroon kang anumang mga isyu."
+    "message": "Ginagamit mo na ngayon ang bagong Callisto Hub UI. I-explore at subukan ang mga bagong features tulad ng pagpapadala ng mga token, at ipaalam sa amin kung mayroon kang anumang mga isyu."
   },
   "unavailable": {
     "message": "Hindi Magagamit"

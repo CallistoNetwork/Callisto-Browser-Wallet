@@ -43,16 +43,16 @@ export default class Welcome extends PureComponent {
     return (
       <div className="welcome-page__wrapper">
         <div className="welcome-page">
-          <Mascot
-            animationEventEmitter={this.animationEventEmitter}
-            width="125"
-            height="125"
+          <img
+            className="app-header__metafox-logo app-header__metafox-logo--horizontal"
+            src="/images/logo/clo-logo.svg"
+            height={80}
           />
           <div className="welcome-page__header">
             { t('welcome') }
           </div>
           <div className="welcome-page__description">
-            <div>{ t('metamaskDescription') }</div>
+            <div>{ t('callistoHubDescription') }</div>
             <div>{ t('happyToSeeYou') }</div>
           </div>
           <Button

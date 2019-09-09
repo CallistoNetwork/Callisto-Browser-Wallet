@@ -33,10 +33,10 @@
     "message": "Demande d'API Web3"
   },
   "reviewProviderRequest": {
-    "message": "Veuillez consulter cette demande d'API Ethereum."
+    "message": "Veuillez consulter cette demande d'API Callisto Network."
   },
   "providerRequestInfo": {
-    "message": "Le domaine répertorié ci-dessous tente de demander l'accès à l'API Ethereum pour pouvoir interagir avec la chaîne de blocs Ethereum. Vérifiez toujours que vous êtes sur le bon site avant d'autoriser l'accès à Ethereum."
+    "message": "Le domaine répertorié ci-dessous tente de demander l'accès à l'API Callisto Network pour pouvoir interagir avec la chaîne de blocs Callisto Network. Vérifiez toujours que vous êtes sur le bon site avant d'autoriser l'accès à Callisto Network."
   },
   "accept": {
     "message": "Accepter"
@@ -75,7 +75,7 @@
     "message": "Ajouter les jetons suggérés"
   },
   "addAcquiredTokens": {
-    "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de MetaMask"
+    "message": "Ajouter les jetons que vous avez acquis par l'intermédiaire de Callisto Hub"
   },
   "amount": {
     "message": "Montant"
@@ -84,11 +84,11 @@
     "message": "Montant + Gaz"
   },
   "appDescription": {
-    "message": "Extension Ethereum pour navigateur",
+    "message": "Extension Callisto pour navigateur",
     "description": "La description de l'application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Callisto Hub",
     "description": "Le nom de l'application"
   },
   "approve": {
@@ -141,7 +141,7 @@
     "message": "Votre navigateur internet n'est pas supporté..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask est designé et developpé en Californie."
+    "message": "Callisto Hub est designé et developpé en Californie."
   },
   "buy": {
     "message": "Acheter"
@@ -150,7 +150,7 @@
     "message": "Acheter sur Coinbase"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase est le moyen le plus populaire d'acheter et de vendre des Ethers."
+    "message": "Coinbase est le moyen le plus populaire d'acheter et de vendre des Callistos."
   },
   "buyCoinSwitch": {
     "message": "Acheter sur CoinSwitch"
@@ -186,7 +186,7 @@
     "message": "Fermer"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Pour connecter votre portefeuille hardware, vous devez utiliser MetaMask pour Google Chrome."
+    "message": "Pour connecter votre portefeuille hardware, vous devez utiliser Callisto Hub pour Google Chrome."
   },
   "confirm": {
     "message": "Confirmer"
@@ -216,7 +216,7 @@
     "message": "Connexion au réseau de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Connexion au réseau principal Ethereum"
+    "message": "Connexion au réseau principal Callisto Network"
   },
   "connectingToRopsten": {
     "message": "Connexion au réseau de test Ropsten"
@@ -319,10 +319,10 @@
     "message": "Décimales de précision"
   },
   "defaultNetwork": {
-    "message": "Le réseau par défaut pour les transactions Ether est le \"Réseau principal Ethereum\"."
+    "message": "Le réseau par défaut pour les transactions Callisto est le \"Réseau principal Callisto Network\"."
   },
   "denExplainer": {
-    "message": "Votre DEN est votre stockage crypté par mot de passe dans MetaMask."
+    "message": "Votre DEN est votre stockage crypté par mot de passe dans Callisto Hub."
   },
   "deposit": {
     "message": "Déposer"
@@ -335,10 +335,10 @@
     "description": "Indique à l'utilisateur quelle monnaie il a choisi de déposer avec Shapeshift"
   },
   "depositEth": {
-    "message": "Déposer Eth"
+    "message": "Déposer CLO"
   },
   "depositEther": {
-    "message": "Déposer de l'Ether"
+    "message": "Déposer de l'Callisto"
   },
   "depositFiat": {
     "message": "Déposer de la monnaie-fiat"
@@ -350,7 +350,7 @@
     "message": "Déposer avec ShapeShift"
   },
   "depositShapeShiftExplainer": {
-    "message": "Si vous possédez d'autres crypto-monnaies, vous pouvez échanger et déposer de l'Ether directement dans votre portefeuille MetaMask via Shapeshift. Aucun compte n'est requis."
+    "message": "Si vous possédez d'autres crypto-monnaies, vous pouvez échanger et déposer de l'Callisto directement dans votre portefeuille Callisto Hub via Shapeshift. Aucun compte n'est requis."
   },
   "details": {
     "message": "Détails"
@@ -359,10 +359,10 @@
     "message": "Dépôt direct"
   },
   "directDepositEther": {
-    "message": "Dépôt direct d'Ether"
+    "message": "Dépôt direct d'Callisto"
   },
   "directDepositEtherExplainer": {
-    "message": "Si vous avez déjà de l'Ether, le moyen le plus rapide d'obtenir des Ether dans votre nouveau portefeuille est par dépôt direct."
+    "message": "Si vous avez déjà de l'Callisto, le moyen le plus rapide d'obtenir des Callisto dans votre nouveau portefeuille est par dépôt direct."
   },
   "done": {
     "message": "Terminé"
@@ -407,7 +407,7 @@
     "message": "Entrez votre mot de passe pour continuer"
   },
   "etherscanView": {
-    "message": "Afficher le compte sur Etherscan"
+    "message": "Afficher le compte sur CLO Explorer"
   },
   "exchangeRate": {
     "message": "Taux de change"
@@ -482,11 +482,11 @@
     "message": "Préparation de la transaction"
   },
   "getEther": {
-    "message": "Obtenir des Ether"
+    "message": "Obtenir des Callisto"
   },
   "getEtherFromFaucet": {
-    "message": "Obtenir de l'Ether d'une faucet pour $1",
-    "description": "Affiche le nom du réseau pour la faucet d'Ether"
+    "message": "Obtenir de l'Callisto d'une faucet pour $1",
+    "description": "Affiche le nom du réseau pour la faucet d'Callisto"
   },
   "getHelp": {
     "message": "Obtenir de l'aide."
@@ -505,7 +505,7 @@
     "message": "Connecter un portefeuille hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectionnez le portefeuille hardware que vous voulez utiliser avec MetaMask"
+    "message": "Selectionnez le portefeuille hardware que vous voulez utiliser avec Callisto Hub"
   },
   "havingTroubleConnecting": {
     "message": "Un problème de connection ?"
@@ -533,10 +533,10 @@
     "message": "Historique"
   },
   "howToDeposit": {
-    "message": "Comment voulez-vous déposer de l'Ether?"
+    "message": "Comment voulez-vous déposer de l'Callisto?"
   },
   "holdEther": {
-    "message": "Cela vous permet de conserver vos Ethers et vos jetons afin d'utiliser directement des applications décentralisées."
+    "message": "Cela vous permet de conserver vos Callisto et vos jetons afin d'utiliser directement des applications décentralisées."
   },
   "import": {
     "message": "Importer",
@@ -546,7 +546,7 @@
     "message": "Importer un compte"
   },
   "importAccountMsg": {
-    "message": " Les comptes importés ne seront pas associés avec votre phrase Seed que vous avez créé au départ dans MetaMask. Obtenir plus d'information sur les comptes importés"
+    "message": " Les comptes importés ne seront pas associés avec votre phrase Seed que vous avez créé au départ dans Callisto Hub. Obtenir plus d'information sur les comptes importés"
   },
   "importAnAccount": {
     "message": "Importer un compte"
@@ -605,7 +605,7 @@
     "description": "format d'importation d'un compte"
   },
   "keepTrackTokens": {
-    "message": "Garder la trace des jetons que vous avez acheté avec votre compte MetaMask."
+    "message": "Garder la trace des jetons que vous avez acheté avec votre compte Callisto Hub."
   },
   "kovan": {
     "message": "Réseau de test Kovan"
@@ -657,7 +657,7 @@
     "message": "Les mots seed n'ont que des caractères en minuscules"
   },
   "mainnet": {
-    "message": "Réseau principal Ethereum"
+    "message": "Réseau principal CLO"
   },
   "menu": {
     "message": "Menu"
@@ -665,14 +665,14 @@
   "message": {
     "message": "Message"
   },
-  "metamaskDescription": {
-    "message": "MetaMask est un coffre sécurisé pour votre identité sur Ethereum."
+  "callistoHubDescription": {
+    "message": "Callisto Hub est un coffre sécurisé pour votre identité sur Callisto Network."
   },
-  "metamaskSeedWords": {
-    "message": "Mots Seed pour MetaMask"
+  "CLOSeedWords": {
+    "message": "Mots Seed pour Callisto Hub"
   },
-  "metamaskVersion": {
-    "message": "Version de MetaMask"
+  "CallistoHubVersion": {
+    "message": "Version de Callisto Hub"
   },
   "min": {
     "message": "Minimum"
@@ -684,7 +684,7 @@
     "message": "Vous devez selectionner au moins 1 jeton."
   },
   "needEtherInWallet": {
-    "message": "Pour interagir avec des applications décentralisées à l'aide de MetaMask, vous avez besoin d'Ether dans votre portefeuille."
+    "message": "Pour interagir avec des applications décentralisées à l'aide de Callisto Hub, vous avez besoin d'Callisto dans votre portefeuille."
   },
   "needImportFile": {
     "message": "Vous devez sélectionner un fichier à importer.",
@@ -695,7 +695,7 @@
     "description": "Mot de passe et fichier requis pour importer un compte"
   },
   "negativeETH": {
-    "message": "Vous ne pouvez envoyer des montants négatifs d'ETH."
+    "message": "Vous ne pouvez envoyer des montants négatifs d'CLO."
   },
   "networks": {
     "message": "Réseaux"
@@ -762,10 +762,10 @@
     "message": "Vous êtes revenu à l'ancienne interface utilisateur. Vous pouvez revenir à la nouvelle interface via l'option dans le menu déroulant en haut à droite."
   },
   "onlySendToEtherAddress": {
-    "message": "N'envoyez de l'Ether que sur une adresse Ethereum."
+    "message": "N'envoyez de l'Callisto que sur une adresse Callisto Network."
   },
   "onlySendTokensToAccountAddress": {
-    "message": "N'envoyez des $1 que sur une adresse Ethereum.",
+    "message": "N'envoyez des $1 que sur une adresse Callisto Network.",
     "description": "displays token symbol"
   },
   "openInTab": {
@@ -1004,13 +1004,13 @@
     "message": "Envoyer"
   },
   "sendETH": {
-    "message": "Envoyer des ETH"
+    "message": "Envoyer des CLO"
   },
   "sendTokens": {
     "message": "Envoyer des jetons"
   },
   "sentEther": {
-    "message": "Ether envoyé"
+    "message": "Callisto envoyé"
   },
   "sentTokens": {
     "message": "Jetons envoyés"
@@ -1028,7 +1028,7 @@
     "message": "Selectionner un compte"
   },
   "selectAnAccountHelp": {
-    "message": "Selectionner le compte à afficher dans MetaMask"
+    "message": "Selectionner le compte à afficher dans Callisto Hub"
   },
   "selectHdPath": {
     "message": "Selectioner le \"Path HD\""
@@ -1037,7 +1037,7 @@
     "message": "Si vos comptes Ledger n'apparaissent pas ci-dessous, essayez de selectionner le path \"Legacy (MEW / MyCrypto)\""
   },
   "sendTokensAnywhere": {
-    "message": "Envoyer des jetons à toute personne possédant un compte Ethereum"
+    "message": "Envoyer des jetons à toute personne possédant un compte Callisto Network"
   },
   "settings": {
     "message": "Paramètres"
@@ -1118,7 +1118,7 @@
     "message": "3. Vous pouvez maintenant utiliser des dApps et autres... !"
   },
   "step3HardwareWalletMsg": {
-    "message": "Utilisez ce compte de votre portefeuille hardware comme n'importe quel compte Ethereum. Connectez vous à des dApps, envoyez de l'Eth, achetez et conservez des jetons ERC20 et Non-Fungible comme CryptoKitties."
+    "message": "Utilisez ce compte de votre portefeuille hardware comme n'importe quel compte Callisto Network. Connectez vous à des dApps, envoyez de l'CLO, achetez et conservez des jetons ERC20 et Non-Fungible comme CryptoKitties."
   },
   "submit": {
     "message": "Soumettre"
@@ -1145,7 +1145,7 @@
     "message": "Destinataire"
   },
   "toETHviaShapeShift": {
-    "message": "$1 à ETH via ShapeShift",
+    "message": "$1 à CLO via ShapeShift",
     "description": "le système remplira le type de dépôt au début du message"
   },
   "token": {
@@ -1167,7 +1167,7 @@
     "message": "Symbole du Jeton"
   },
   "tokenWarning1": {
-    "message": "Garder la trace des jetons achetésvia MetaMask. Si vous en avez acheté avec un autre compte, ces jetons n'apparaîtront pas ici."
+    "message": "Garder la trace des jetons achetésvia Callisto Hub. Si vous en avez acheté avec un autre compte, ces jetons n'apparaîtront pas ici."
   },
   "total": {
     "message": "Total"
@@ -1228,7 +1228,7 @@
     "message": "Essayez à nouveau"
   },
   "twelveWords": {
-    "message": "Ces 12 mots sont la seule manière de restaurer vos comptes MetaMask.\nEnregistrez les quelquepart de sûr et secret."
+    "message": "Ces 12 mots sont la seule manière de restaurer vos comptes Callisto Hub.\nEnregistrez les quelquepart de sûr et secret."
   },
   "typePassword": {
     "message": "Entrez votre mot de passe"
@@ -1237,7 +1237,7 @@
     "message": "Bienvenue dans la nouvelle interface utilisateur (Beta)"
   },
   "uiWelcomeMessage": {
-    "message": "Vous utilisez maintenant la nouvelle interface utilisateur MetaMask. Jetez un coup d'oeil, essayez de nouvelles fonctionnalités comme l'envoi de jetons, et faites-nous savoir si vous avez des problèmes."
+    "message": "Vous utilisez maintenant la nouvelle interface utilisateur Callisto Hub. Jetez un coup d'oeil, essayez de nouvelles fonctionnalités comme l'envoi de jetons, et faites-nous savoir si vous avez des problèmes."
   },
   "unapproved": {
     "message": "Non autorisé"
@@ -1301,7 +1301,7 @@
     "message": "Afficher le compte"
   },
   "viewOnEtherscan": {
-    "message": "Voir sur Etherscan"
+    "message": "Voir sur CLO Explorer"
   },
   "visitWebSite": {
     "message": "Visitez notre site web"
@@ -1313,7 +1313,7 @@
     "message": "Bienvenue à nouveau !"
   },
   "welcome": {
-    "message": "Bienvenue dans la Beta de MetaMask"
+    "message": "Bienvenue dans la Beta de Callisto Hub"
   },
   "whatsThis": {
     "message": "Qu'est-ce que c'est?"

@@ -29,7 +29,7 @@ class CurrencyController {
       currentCurrency: 'usd',
       conversionRate: 0,
       conversionDate: 'N/A',
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'CLO',
     }, opts.initState)
     this.store = new ObservableStore(initState)
   }
@@ -177,7 +177,7 @@ class CurrencyController {
       }
     } catch (err) {
       // reset current conversion rate
-      log.warn(`MetaMask - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
+      log.warn(`CallistoHub - Failed to query currency conversion:`, nativeCurrency, currentCurrency, err)
       this.setConversionRate(0)
       this.setConversionDate('N/A')
       // throw error

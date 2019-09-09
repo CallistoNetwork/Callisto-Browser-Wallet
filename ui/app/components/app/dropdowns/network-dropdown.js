@@ -138,140 +138,27 @@ NetworkDropdown.prototype.render = function () {
       ]
     ),
 
-    h(
-      DropdownMenuItem,
-      {
-        key: 'ropsten',
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => this.handleClick('ropsten'),
-        style: dropdownMenuItemStyle,
-      },
-      [
-        providerType === 'ropsten' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          backgroundColor: '#ff4a8d', // $wild-strawberry
-          isSelected: providerType === 'ropsten',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: providerType === 'ropsten' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('ropsten')),
-      ]
-    ),
-
-    h(
-      DropdownMenuItem,
-      {
-        key: 'kovan',
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => this.handleClick('kovan'),
-        style: dropdownMenuItemStyle,
-      },
-      [
-        providerType === 'kovan' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          backgroundColor: '#7057ff', // $cornflower-blue
-          isSelected: providerType === 'kovan',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: providerType === 'kovan' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('kovan')),
-      ]
-    ),
-
-    h(
-      DropdownMenuItem,
-      {
-        key: 'rinkeby',
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => this.handleClick('rinkeby'),
-        style: dropdownMenuItemStyle,
-      },
-      [
-        providerType === 'rinkeby' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          backgroundColor: '#f6c343', // $saffron
-          isSelected: providerType === 'rinkeby',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: providerType === 'rinkeby' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('rinkeby')),
-      ]
-    ),
-
-    h(
-      DropdownMenuItem,
-      {
-        key: 'goerli',
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => this.handleClick('goerli'),
-        style: dropdownMenuItemStyle,
-      },
-      [
-        providerType === 'goerli' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          backgroundColor: '#3099f2', // $dodger-blue
-          isSelected: providerType === 'goerli',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: providerType === 'goerli' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('goerli')),
-      ]
-    ),
-
-    h(
-      DropdownMenuItem,
-      {
-        key: 'default',
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => this.handleClick('localhost'),
-        style: dropdownMenuItemStyle,
-      },
-      [
-        providerType === 'localhost' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          isSelected: providerType === 'localhost',
-          innerBorder: '1px solid #9b9b9b',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: providerType === 'localhost' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('localhost')),
-      ]
-    ),
-
-    this.renderCustomOption(props.provider),
-    this.renderCommonRpc(rpcListDetail, props.provider),
-
-    h(
-      DropdownMenuItem,
-      {
-        closeMenu: () => this.props.hideNetworkDropdown(),
-        onClick: () => this.props.history.push(ADVANCED_ROUTE),
-        style: dropdownMenuItemStyle,
-      },
-      [
-        activeNetwork === 'custom' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
-        h(NetworkDropdownIcon, {
-          isSelected: activeNetwork === 'custom',
-          innerBorder: '1px solid #9b9b9b',
-        }),
-        h('span.network-name-item', {
-          style: {
-            color: activeNetwork === 'custom' ? '#ffffff' : '#9b9b9b',
-          },
-        }, this.context.t('customRPC')),
-      ]
-    ),
-
+    // h(
+    //   DropdownMenuItem,
+    //   {
+    //     key: 'ropsten',
+    //     closeMenu: () => this.props.hideNetworkDropdown(),
+    //     onClick: () => this.handleClick('ropsten'),
+    //     style: dropdownMenuItemStyle,
+    //   },
+    //   [
+    //     providerType === 'ropsten' ? h('i.fa.fa-check') : h('.network-check__transparent', '✓'),
+    //     h(NetworkDropdownIcon, {
+    //       backgroundColor: '#ff4a8d', // $wild-strawberry
+    //       isSelected: providerType === 'ropsten',
+    //     }),
+    //     h('span.network-name-item', {
+    //       style: {
+    //         color: providerType === 'ropsten' ? '#ffffff' : '#9b9b9b',
+    //       },
+    //     }, this.context.t('ropsten')),
+    //   ]
+    // ),
   ])
 }
 
@@ -324,7 +211,7 @@ NetworkDropdown.prototype.renderCommonRpc = function (rpcListDetail, provider) {
 
   return reversedRpcListDetail.map((entry) => {
     const rpc = entry.rpcUrl
-    const ticker = entry.ticker || 'ETH'
+    const ticker = entry.ticker || 'CLO'
     const nickname = entry.nickname || ''
     const currentRpcTarget = provider.type === 'rpc' && rpc === provider.rpcTarget
 

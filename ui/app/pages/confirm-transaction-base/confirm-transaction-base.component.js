@@ -99,15 +99,18 @@ export default class ConfirmTransactionBase extends Component {
     submitError: null,
   }
 
-  componentDidUpdate () {
+  componentDidUpdate (prevProps) {
     const {
       transactionStatus,
       showTransactionConfirmedModal,
       history,
       clearConfirmTransaction,
     } = this.props
+    const { transactionStatus: prevTxStatus } = prevProps
+    const statusUpdated = transactionStatus !== prevTxStatus
+    const txDroppedOrConfirmed = transactionStatus === DROPPED_STATUS || transactionStatus === CONFIRMED_STATUS
 
-    if (transactionStatus === DROPPED_STATUS || transactionStatus === CONFIRMED_STATUS) {
+    if (statusUpdated && txDroppedOrConfirmed) {
       showTransactionConfirmedModal({
         onSubmit: () => {
           clearConfirmTransaction()
@@ -233,7 +236,7 @@ export default class ConfirmTransactionBase extends Component {
               secondaryText={hideFiatConversion ? this.context.t('noConversionRateAvailable') : secondaryTotalTextOverride}
               headerText="Amount + Gas Fee"
               headerTextClassName="confirm-detail-row__header-text--total"
-              primaryValueTextColor="#2f9ae0"
+              primaryValueTextColor="#34c88a"
             />
           </div>
         </div>

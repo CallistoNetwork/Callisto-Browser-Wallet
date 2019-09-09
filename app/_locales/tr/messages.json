@@ -39,10 +39,10 @@
     "message": "Web3 API İsteği"
   },
   "reviewProviderRequest": {
-    "message": "Lütfen bu Ethereum API isteğini inceleyin."
+    "message": "Lütfen bu Callisto Network API isteğini inceleyin."
   },
   "providerRequestInfo": {
-    "message": "Aşağıda listelenen etki alanı, Ethereum API'sine erişim talep etmeye çalışmaktadır, böylece Ethereum blockchain ile etkileşime girebilir. Web3 erişimini onaylamadan önce her zaman doğru sitede olduğunuzu kontrol edin."
+    "message": "Aşağıda listelenen etki alanı, Callisto Network API'sine erişim talep etmeye çalışmaktadır, böylece Callisto Network blockchain ile etkileşime girebilir. Web3 erişimini onaylamadan önce her zaman doğru sitede olduğunuzu kontrol edin."
   },
   "accept": {
     "message": "Kabul et"
@@ -75,11 +75,11 @@
     "message": "Tutar + Gas"
   },
   "appDescription": {
-    "message": "Ethereum Tarayıcı Uzantısı",
+    "message": "Callisto Tarayıcı Uzantısı",
     "description": "Uygulama açıklaması"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Callisto Hub",
     "description": "Uygulama ismi"
   },
   "approved": {
@@ -120,7 +120,7 @@
     "message": "Dharma (Beta) ile ödünç al"
   },
   "builtInCalifornia": {
-    "message": "MetaMask California'da tasarlandı ve yaratıldı"
+    "message": "Callisto Hub California'da tasarlandı ve yaratıldı"
   },
   "buy": {
     "message": "Satın al"
@@ -129,7 +129,7 @@
     "message": "Coinbase'de satın al"
   },
   "buyCoinbaseExplainer": {
-    "message": "Coinbase Bitcoin, Ethereum, and Litecoin alıp satmanın dünyadaki en popüler yolu"
+    "message": "Coinbase Bitcoin, Callisto Network, and Litecoin alıp satmanın dünyadaki en popüler yolu"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitch'de satın al"
@@ -241,10 +241,10 @@
     "message": "Ondalık hassasiyeti"
   },
   "defaultNetwork": {
-    "message": "Ether işlemleri için varsayılan ağ Main Net."
+    "message": "Callisto işlemleri için varsayılan ağ Main Net."
   },
   "denExplainer": {
-    "message": "DEN'iniz MetaMask içersinde parola-şifrelenmiş deponuzdur."
+    "message": "DEN'iniz Callisto Hub içersinde parola-şifrelenmiş deponuzdur."
   },
   "deposit": {
     "message": "Yatır"
@@ -257,10 +257,10 @@
     "description": "Kullanıcıya hangi jetonu seçtiyse onu yatırmasını shapeshift ile söyler."
   },
   "depositEth": {
-    "message": "Eth yatır"
+    "message": "Clo yatır"
   },
   "depositEther": {
-    "message": "Ether yatır"
+    "message": "Callisto yatır"
   },
   "depositFiat": {
     "message": "Para yatır"
@@ -272,7 +272,7 @@
     "message": "ShapeShift ile yatır"
   },
   "depositShapeShiftExplainer": {
-    "message": "Eğer başka kripto paralara sahipseniz, MetaMask cüzdanınıza direk olarak Ether yatırabilirsiniz. Hesaba gerek yoktur."
+    "message": "Eğer başka kripto paralara sahipseniz, Callisto Hub cüzdanınıza direk olarak Callisto yatırabilirsiniz. Hesaba gerek yoktur."
   },
   "details": {
     "message": "Ayrıntılar"
@@ -281,10 +281,10 @@
     "message": "Direk Yatırma"
   },
   "directDepositEther": {
-    "message": "Direk Ether Yatırma"
+    "message": "Direk Callisto Yatırma"
   },
   "directDepositEtherExplainer": {
-    "message": "Eğer çoktan Etheriniz varsa, yeni hesabınıza Ether aktarmanın en kolay yolu direk yatırmadır."
+    "message": "Eğer çoktan Callisto varsa, yeni hesabınıza Callisto aktarmanın en kolay yolu direk yatırmadır."
   },
   "done": {
     "message": "Bitti"
@@ -320,7 +320,7 @@
     "message": "Parolalar eşleşmiyor"
   },
   "etherscanView": {
-    "message": "Hesabı Etherscan üzerinde izle"
+    "message": "Hesabı CLO Explorer üzerinde izle"
   },
   "exchangeRate": {
     "message": "Döviz kuru"
@@ -386,11 +386,11 @@
     "message": "Gas Fiyatı Gereklidir"
   },
   "getEther": {
-    "message": "Ether Al"
+    "message": "Callisto Al"
   },
   "getEtherFromFaucet": {
-    "message": "Musluktan $1 karşılığı Ether alın",
-    "description": "Ether musluğunun ağ ismini gösterir"
+    "message": "Musluktan $1 karşılığı Callisto alın",
+    "description": "Callisto musluğunun ağ ismini gösterir"
   },
   "greaterThanMin": {
     "message": "must be greater than or equal to $1.",
@@ -413,10 +413,10 @@
     "message": "Jetonu gizle?"
   },
   "howToDeposit": {
-    "message": "Ether'i nasıl yatırmak istersiniz?"
+    "message": "Callisto'i nasıl yatırmak istersiniz?"
   },
   "holdEther": {
-    "message": "Ether ve jeton tutmanızı sağlar ve merkezi olmayan uygulamalar ve sizin aranızda köprü vazifesi görür."
+    "message": "Callisto ve jeton tutmanızı sağlar ve merkezi olmayan uygulamalar ve sizin aranızda köprü vazifesi görür."
   },
   "import": {
     "message": "Al",
@@ -426,7 +426,7 @@
     "message": "Hesap Al"
   },
   "importAccountMsg": {
-    "message": " Alınan hesaplar orjinal kaynakifadenizle yarattığınız MetaMask hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
+    "message": " Alınan hesaplar orjinal kaynakifadenizle yarattığınız Callisto Hub hesabınızla ilişkilendirilmez. Alınan hesaplar ile ilgili daha fazla bilgi edinin "
   },
   "importAnAccount": {
     "message": "Hesap al"
@@ -473,7 +473,7 @@
     "description": "Hesap alımı için düzenle"
   },
   "keepTrackTokens": {
-    "message": "MetaMask hesabınızla satın aldığınız jetonların kaydını tutun."
+    "message": "Callisto Hub hesabınızla satın aldığınız jetonların kaydını tutun."
   },
   "kovan": {
     "message": "Kovan Test Ağı"
@@ -522,13 +522,13 @@
     "message": "kaynak kelimeleri sadece küçük harflerden oluşabilir."
   },
   "mainnet": {
-    "message": "Main Ethereum Ağı"
+    "message": "Main CLO Ağı"
   },
   "message": {
     "message": "Mesaj"
   },
-  "metamaskDescription": {
-    "message": "MetaMask Ethereum için güvenli bir kimlik kasasıdır."
+  "callistoHubDescription": {
+    "message": "Callisto Hub Callisto Network için güvenli bir kimlik kasasıdır."
   },
   "min": {
     "message": "Minimum"
@@ -540,7 +540,7 @@
     "message": "En az bir jeton seçilmeli"
   },
   "needEtherInWallet": {
-    "message": "MetaMask kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Ether bulunmalıdır."
+    "message": "Callisto Hub kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Callisto bulunmalıdır."
   },
   "needImportFile": {
     "message": "Almak için bir dosya seçmelisiniz.",
@@ -551,7 +551,7 @@
     "description": "Hesap almak için parola ve dosya gerekiyor."
   },
   "negativeETH": {
-    "message": "Negatif ETH miktarları gönderilemez."
+    "message": "Negatif CLO miktarları gönderilemez."
   },
   "networks": {
     "message": "Ağlar"
@@ -704,7 +704,7 @@
     "message": "Geçerli RPC"
   },
   "connectingToMainnet": {
-    "message": "Main Ethereum Ağına bağlanıyor"
+    "message": "Main Callisto Network Ağına bağlanıyor"
   },
   "connectingToRopsten": {
     "message": "Ropsten Test Ağına bağlanıyor"
@@ -766,19 +766,19 @@
     "message": "Gönder"
   },
   "sendETH": {
-    "message": "ETH Gönder"
+    "message": "CLO Gönder"
   },
   "sendTokens": {
     "message": "Jeton Gönder"
   },
   "onlySendToEtherAddress": {
-    "message": "Ethereum adresine sadece ETH gönder."
+    "message": "Callisto Network adresine sadece CLO gönder."
   },
   "searchTokens": {
     "message": "Jeton ara"
   },
   "sendTokensAnywhere": {
-    "message": "Ethereum hesabı olan birine Jeton gönder"
+    "message": "Callisto Network hesabı olan birine Jeton gönder"
   },
   "settings": {
     "message": "Ayarlar"
@@ -853,7 +853,7 @@
     "message": "Kime"
   },
   "toETHviaShapeShift": {
-    "message": "ShapeShift üstünden $1'dan ETH'e",
+    "message": "ShapeShift üstünden $1'dan CLO'e",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAddress": {
@@ -872,7 +872,7 @@
     "message": "Jeton Sembolü"
   },
   "tokenWarning1": {
-    "message": "MetaMask hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
+    "message": "Callisto Hub hesabınızla aldığınız jetonların kaydını tutun. Başka bir hesapla jetonlar satın aldıysanız, o jetonlar burada gözükmeyecektir."
   },
   "total": {
     "message": "Toplam"
@@ -897,7 +897,7 @@
     "description": "Jeton bakiyelerini görmek için bir link (burası) ile takip ediliyor"
   },
   "twelveWords": {
-    "message": "MetaMask hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
+    "message": "Callisto Hub hesaplarınızı geri getirmenin tek yolu bu 12 kelimedir.\nBu kelimeleri güvenli ve gizli bir yerde saklayın."
   },
   "typePassword": {
     "message": "Parolanızı girin"
@@ -906,7 +906,7 @@
     "message": "Yeni UI (Beta)'ya hoşgeldiniz"
   },
   "uiWelcomeMessage": {
-    "message": "Şu anda yeni MetaMask UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
+    "message": "Şu anda yeni Callisto Hub UI kullanmaktasınız. Gözatın, jeton gönderme gibi yeni özellikleri deneyin ve herhangi bir sorunlar karşılaşırsanız bize haber verin"
   },
   "unapproved": {
     "message": "Onaylanmadı"
@@ -952,7 +952,7 @@
     "message": "Uyarı"
   },
   "welcome": {
-    "message": "MetaMask'ya Hoşgeldiniz"
+    "message": "Callisto Hub'ya Hoşgeldiniz"
   },
   "whatsThis": {
     "message": "Bu nedir?"

@@ -19,7 +19,7 @@ let isEnabled = false
 //
 // But for now that is only Firefox
 // If we create a FireFox-only code path using that API,
-// MetaMask will be much faster loading and performant on Firefox.
+// CallistoHub will be much faster loading and performant on Firefox.
 
 if (shouldInjectWeb3()) {
   injectScript(inpageBundle)
@@ -42,7 +42,7 @@ function injectScript (content) {
     container.insertBefore(scriptTag, container.children[0])
     container.removeChild(scriptTag)
   } catch (e) {
-    console.error('MetaMask script injection failed', e)
+    console.error('Callisto Hub script injection failed', e)
   }
 }
 
@@ -76,7 +76,7 @@ function setupStreams () {
     pluginStream,
     approvalTransform,
     pageStream,
-    (err) => logStreamDisconnectWarning('MetaMask Contentscript Forwarding', err)
+    (err) => logStreamDisconnectWarning('CallistoHub Contentscript Forwarding', err)
   )
 
   // setup local multistream channels
@@ -87,13 +87,13 @@ function setupStreams () {
     mux,
     pageStream,
     mux,
-    (err) => logStreamDisconnectWarning('MetaMask Inpage', err)
+    (err) => logStreamDisconnectWarning('CallistoHub Inpage', err)
   )
   pump(
     mux,
     pluginStream,
     mux,
-    (err) => logStreamDisconnectWarning('MetaMask Background', err)
+    (err) => logStreamDisconnectWarning('CallistoHub Background', err)
   )
 
   // connect ping stream
@@ -102,7 +102,7 @@ function setupStreams () {
     mux,
     pongStream,
     mux,
-    (err) => logStreamDisconnectWarning('MetaMask PingPongStream', err)
+    (err) => logStreamDisconnectWarning('CallistoHub PingPongStream', err)
   )
 
   // connect phishing warning stream
@@ -180,8 +180,8 @@ function listenForProviderRequest () {
 }
 
 /**
- * Checks if MetaMask is currently operating in "privacy mode", meaning
- * dapps must call ethereum.enable in order to access user accounts
+ * Checks if CallistoHub is currently operating in "privacy mode", meaning
+ * dapps must call Callisto Network.enable in order to access user accounts
  */
 function checkPrivacyMode () {
   extension.runtime.sendMessage({ action: 'init-privacy-request' })
@@ -194,7 +194,7 @@ function checkPrivacyMode () {
  * @param {Error} err Stream connection error
  */
 function logStreamDisconnectWarning (remoteLabel, err) {
-  let warningMsg = `MetamaskContentscript - lost connection to ${remoteLabel}`
+  let warningMsg = `CallistoHub - lost connection to ${remoteLabel}`
   if (err) warningMsg += '\n' + err.stack
   console.warn(warningMsg)
 }
@@ -293,7 +293,7 @@ function blacklistedDomainCheck () {
  * Redirects the current page to a phishing information page
  */
 function redirectToPhishingWarning () {
-  console.log('MetaMask - routing to Phishing Warning component')
+  console.log('CallistoHub - routing to Phishing Warning component')
   const extensionURL = extension.runtime.getURL('phishing.html')
   window.location.href = `${extensionURL}#${querystring.stringify({
     hostname: window.location.hostname,

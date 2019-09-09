@@ -12,7 +12,7 @@ class NotificationManager {
    */
 
   /**
-   * Either brings an existing MetaMask notification window into focus, or creates a new notification window. New
+   * Either brings an existing CallistoHub notification window into focus, or creates a new notification window. New
    * notification windows are given a 'popup' type.
    *
    */
@@ -44,7 +44,7 @@ class NotificationManager {
   }
 
   /**
-   * Closes a MetaMask notification if it window exists.
+   * Closes a CallistoHub notification if it window exists.
    *
    */
   closePopup () {
@@ -57,7 +57,7 @@ class NotificationManager {
   }
 
   /**
-   * Checks all open MetaMask windows, and returns the first one it finds that is a notification window (i.e. has the
+   * Checks all open CallistoHub windows, and returns the first one it finds that is a notification window (i.e. has the
    * type 'popup')
    *
    * @private

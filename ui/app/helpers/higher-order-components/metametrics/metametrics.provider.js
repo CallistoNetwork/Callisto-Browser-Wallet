@@ -63,6 +63,7 @@ class MetaMetricsProvider extends Component {
         const isSendFlow = Boolean(name.match(/^send|^confirm/) || overRidePathName.match(/send|confirm/))
 
         if (props.participateInMetaMetrics || config.isOptIn) {
+          return false;
           return sendMetaMetricsEvent({
             ...props,
             ...config,
@@ -103,4 +104,3 @@ module.exports = compose(
   withRouter,
   connect(mapStateToProps)
 )(MetaMetricsProvider)
-

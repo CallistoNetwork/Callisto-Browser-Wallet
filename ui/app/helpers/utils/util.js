@@ -211,7 +211,7 @@ function dataSize (data) {
   return size + ' bytes'
 }
 
-// Takes a BN and an ethereum currency name,
+// Takes a BN and an Callisto Network currency name,
 // returns a BN in wei
 function normalizeToWei (amount, currency) {
   try {

@@ -42,7 +42,7 @@ class DetectTokensController {
     const ethContract = this.web3.eth.contract(SINGLE_CALL_BALANCES_ABI).at(SINGLE_CALL_BALANCES_ADDRESS)
     ethContract.balances([this.selectedAddress], tokensToDetect, (error, result) => {
       if (error) {
-        warn(`MetaMask - DetectTokensController single call balance fetch failed`, error)
+        warn(`CallistoHub - DetectTokensController single call balance fetch failed`, error)
         return
       }
       tokensToDetect.forEach((tokenAddress, index) => {
@@ -69,7 +69,7 @@ class DetectTokensController {
           this._preferences.addToken(contractAddress, contracts[contractAddress].symbol, contracts[contractAddress].decimals)
         }
       } else {
-        warn(`MetaMask - DetectTokensController balance fetch failed for ${contractAddress}.`, error)
+        warn(`CallistoHub - DetectTokensController balance fetch failed for ${contractAddress}.`, error)
       }
     })
   }
